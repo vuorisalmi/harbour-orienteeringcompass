@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Name=harbour-orienteeringcompass
+Name=Orienteering Compass
 Icon=harbour-orienteeringcompass
 Exec=harbour-orienteeringcompass
 

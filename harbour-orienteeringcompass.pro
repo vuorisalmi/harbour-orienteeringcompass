@@ -18,5 +18,6 @@ OTHER_FILES += qml/harbour-orienteeringcompass.qml \
     qml/pages/SecondPage.qml \
     rpm/harbour-orienteeringcompass.spec \
     rpm/harbour-orienteeringcompass.yaml \
-    harbour-orienteeringcompass.desktop
+    harbour-orienteeringcompass.desktop \
+    graphics/compass_app_icon_86x86.svg
 
