@@ -30,47 +30,45 @@
 */
 
 import QtQuick 2.0
-import Sailfish.Silica 1.0
-//import QtSensors 5.0
+import QtSensors 5.0
 
-Page {
-    id: page
 
-    // To enable PullDownMenu, place our content in a SilicaFlickable
-    SilicaFlickable {
-        anchors.fill: parent
+// This is a non-visual item, a wrapper around the Qt Compass sensor element.
+// It provides some additional logic for comparing the current azimuth vs.
+// direction set by the user (to orienteer!) and provides the compass reading
+// value in different formats according to current settings.
+Item {
+    id: compass
 
-        // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
-        PullDownMenu {
-            MenuItem {
-                text: "Show Page 2"
-                onClicked: pageStack.push(Qt.resolvedUrl("SecondPage.qml"))
-            }
+    property alias active: compassSensor.active
+    property real azimuth: 0.0     // current azimuth in degrees
+    property real direction: 0.0   // the orienteering direction set by user, 0-359.99 degrees
+    property bool rightDirection: false // (Math.abs(azimuth - direction) < 2.0 || Math.abs(azimuth - direction) > 358.0)
+
+    property real scaledAzimuth: scaleAngle(azimuth)
+    property int __scale: 360 // TODO: bind to settings later
+
+    function normalize360(angle) {
+        var semiNormalized = angle % 360
+        return semiNormalized >= 0 ? semiNormalized : semiNormalized + 360
+    }
+    function scaleAngle(angle360) {
+        var realScale = 1 * compass.__scale  // TODO: simplify if scale remains a number
+        return angle360 / 360 * realScale
+    }
+
+    Compass {
+        id: compassSensor
+
+        onReadingChanged: {
+            // TODO: normalize azimuth to 0-360??
+            azimuth = reading.azimuth;
+            rightDirection = (Math.abs(azimuth - direction) < 2.0 || Math.abs(azimuth - direction) > 358.0)
+            //console.log("Compass reading: " + reading.azimuth)
         }
-
-        // Tell SilicaFlickable the height of its content.
-        contentHeight: pageContent.height
-
-        OrientCompassSensor {
-            id: compass
-            active: true
-        }
-
-        Item {
-            id: pageContent
-            width: page.width
-            height: Screen.height
-
-            Label {
-                anchors.horizontalCenter: parent.horizontalCenter
-                y: 100 //height * 0.2
-
-                text: compass.scaledAzimuth.toFixed(0)
-                color: (compass.rightDirection) ? Theme.highlightColor : Theme.secondaryHighlightColor
-                font.pixelSize: 100
-            }
+        onActiveChanged: {
+            // Debug purposes only
+            console.log("***Compass sensor: " + (active ? "START" : "STOP"));
         }
     }
 }
-
-

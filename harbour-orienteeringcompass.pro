@@ -19,5 +19,6 @@ OTHER_FILES += qml/harbour-orienteeringcompass.qml \
     harbour-orienteeringcompass.desktop \
     graphics/compass_app_icon_86x86.svg \
     qml/pages/CompassPage.qml \
-    qml/pages/CoverPage.qml
+    qml/pages/CoverPage.qml \
+    qml/pages/OrientCompassSensor.qml
 
