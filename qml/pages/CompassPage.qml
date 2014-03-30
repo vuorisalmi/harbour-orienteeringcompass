@@ -74,6 +74,23 @@ Page {
                 font.pixelSize: 100
             }
         }
+
+        CompassCapsule {
+            id: compassCapsule
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: parent.bottom
+            anchors.bottomMargin: 60
+        }
+
+        Rectangle {
+            width: 4
+            height: 160
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: compassCapsule.top
+            anchors.bottomMargin: 20
+            color: Theme.highlightColor
+        }
+
     }
 }
 
