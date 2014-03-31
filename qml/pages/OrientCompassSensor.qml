@@ -45,6 +45,7 @@ Item {
     property real direction: 0.0   // the orienteering direction set by user, 0-359.99 degrees
     property bool rightDirection: false // (Math.abs(azimuth - direction) < 2.0 || Math.abs(azimuth - direction) > 358.0)
 
+    property real __normalDirection: normalize360(direction)
     property real scaledAzimuth: scaleAngle(azimuth)
     property int __scale: 360 // TODO: bind to settings later
 
@@ -63,8 +64,8 @@ Item {
         onReadingChanged: {
             // TODO: normalize azimuth to 0-360??
             azimuth = reading.azimuth;
-            rightDirection = (Math.abs(azimuth - direction) < 2.0 || Math.abs(azimuth - direction) > 358.0)
-            //console.log("Compass reading: " + reading.azimuth)
+            rightDirection = (Math.abs(azimuth - __normalDirection) < 2.0 || Math.abs(azimuth - __normalDirection) > 358.0)
+            console.log("Compass reading: " + reading.azimuth + " direction: " + compass.__normalDirection)
         }
         onActiveChanged: {
             // Debug purposes only

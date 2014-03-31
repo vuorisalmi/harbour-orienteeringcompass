@@ -40,6 +40,8 @@ Page {
     SilicaFlickable {
         anchors.fill: parent
 
+        interactive: !compassCapsule.changingDirection  // Disable flickable when turning the compass ring
+
         // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
         PullDownMenu {
             MenuItem {
@@ -58,6 +60,7 @@ Page {
         OrientCompassSensor {
             id: compass
             active: true
+            direction: compassCapsule.direction
         }
 
         Item {
@@ -80,6 +83,8 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 60
+
+            azimuth: compass.azimuth
         }
 
         Rectangle {

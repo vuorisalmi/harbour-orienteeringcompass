@@ -5,6 +5,9 @@ Item {
     width: 500
     height: 500
 
+    property real direction: - compassRing.rotation   // In degrees
+    property real azimuth: 0.0     // In degrees, set (bind) from outside, the compass needle follows this
+
     property bool changingDirection: false
     property real previousAngle: 0
 
@@ -30,6 +33,15 @@ Item {
         }
     }
 
+    // The needle of the compass
+    Image {
+        id: compassNeedle
+        source: "../images/compass_needle_day.png"
+        anchors.centerIn: parent
+        rotation: - compassCapsule.azimuth
+        Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
+    }
+
     MouseArea {
         anchors.centerIn: parent
         width: compassCapsule.width
@@ -52,7 +64,7 @@ Item {
             if (isTouchOnRing(mouseX, mouseY)) {
                 compassCapsule.changingDirection = true
                 compassCapsule.previousAngle = xyToAngle(mouseX, mouseY)
-                console.log("Starting direction change at:", mouseX, mouseY, " angle ", compassCapsule.previousAngle)
+                //console.log("Starting direction change at:", mouseX, mouseY, " angle ", compassCapsule.previousAngle)
             }
         }
         onReleased: {

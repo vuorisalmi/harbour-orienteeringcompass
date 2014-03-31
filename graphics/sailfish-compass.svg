@@ -715,10 +715,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142137"
-     inkscape:cx="210.71577"
-     inkscape:cy="229.59256"
+     inkscape:cx="125.15586"
+     inkscape:cy="212.4267"
      inkscape:document-units="px"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="layer2"
      showgrid="false"
      width="480px"
      inkscape:window-width="1388"
@@ -1082,7 +1082,10 @@
      transform="translate(0,-198.362)"
      style="display:none">
     <g
-       id="g6685">
+       id="g6685"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57">
       <g
          id="g6679">
         <rect
@@ -1213,9 +1216,9 @@
        inkscape:tile-h="16"
        inkscape:tile-x0="240"
        inkscape:tile-y0="816"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1226,9 +1229,9 @@
        inkscape:transform-center-y="11.402189"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1240,9 +1243,9 @@
        inkscape:transform-center-y="-0.90612086"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1254,9 +1257,9 @@
        inkscape:transform-center-y="-37.030524"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1268,9 +1271,9 @@
        inkscape:transform-center-y="-92.613879"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1282,9 +1285,9 @@
        inkscape:transform-center-y="-160.95202"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1296,9 +1299,9 @@
        inkscape:transform-center-y="-233.80236"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1310,9 +1313,9 @@
        inkscape:transform-center-y="-302.37809"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1324,9 +1327,9 @@
        inkscape:transform-center-y="-358.40792"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1338,9 +1341,9 @@
        inkscape:transform-center-y="-395.13388"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1352,9 +1355,9 @@
        inkscape:transform-center-y="-408.12621"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1366,9 +1369,9 @@
        inkscape:transform-center-y="-395.81789"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1380,9 +1383,9 @@
        inkscape:transform-center-y="-359.69345"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1394,9 +1397,9 @@
        inkscape:transform-center-y="-304.11013"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1408,9 +1411,9 @@
        inkscape:transform-center-y="-235.77198"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1422,9 +1425,9 @@
        inkscape:transform-center-y="-162.92164"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1436,9 +1439,9 @@
        inkscape:transform-center-y="-94.345932"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1450,9 +1453,9 @@
        inkscape:transform-center-y="-38.316099"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1464,9 +1467,9 @@
        inkscape:transform-center-y="-1.5901583"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <rect
        inkscape:tile-y0="823.82971"
        inkscape:tile-x0="241"
@@ -1483,9 +1486,9 @@
        inkscape:tile-cy="812.61897"
        inkscape:tile-w="1"
        inkscape:tile-h="8.0450487"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1496,9 +1499,9 @@
        inkscape:transform-center-y="15.233264"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57"
        style="fill:#ffffff" />
     <use
        x="0"
@@ -1511,9 +1514,9 @@
        inkscape:transform-center-y="15.146776"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1525,9 +1528,9 @@
        inkscape:transform-center-y="14.800151"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1539,9 +1542,9 @@
        inkscape:transform-center-y="14.193831"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1553,9 +1556,9 @@
        inkscape:transform-center-y="13.328537"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1567,9 +1570,9 @@
        inkscape:transform-center-y="12.205329"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1581,9 +1584,9 @@
        inkscape:transform-center-y="10.825584"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1595,9 +1598,9 @@
        inkscape:transform-center-y="9.1909791"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1609,9 +1612,9 @@
        inkscape:transform-center-y="7.3034975"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1623,9 +1626,9 @@
        inkscape:transform-center-y="5.1654422"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1637,9 +1640,9 @@
        inkscape:transform-center-y="2.7794169"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1651,9 +1654,9 @@
        inkscape:transform-center-y="0.14833276"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1665,9 +1668,9 @@
        inkscape:transform-center-y="-2.7245941"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1679,9 +1682,9 @@
        inkscape:transform-center-y="-5.8358799"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1693,9 +1696,9 @@
        inkscape:transform-center-y="-9.1817397"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1707,9 +1710,9 @@
        inkscape:transform-center-y="-12.758079"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1721,9 +1724,9 @@
        inkscape:transform-center-y="-16.560541"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1735,9 +1738,9 @@
        inkscape:transform-center-y="-20.584513"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1749,9 +1752,9 @@
        inkscape:transform-center-y="-24.825075"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1763,9 +1766,9 @@
        inkscape:transform-center-y="-29.277061"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1777,9 +1780,9 @@
        inkscape:transform-center-y="-33.935053"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1791,9 +1794,9 @@
        inkscape:transform-center-y="-38.793366"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1805,9 +1808,9 @@
        inkscape:transform-center-y="-43.846103"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1819,9 +1822,9 @@
        inkscape:transform-center-y="-49.087088"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1833,9 +1836,9 @@
        inkscape:transform-center-y="-54.509936"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1847,9 +1850,9 @@
        inkscape:transform-center-y="-60.108054"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1861,9 +1864,9 @@
        inkscape:transform-center-y="-65.87461"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1875,9 +1878,9 @@
        inkscape:transform-center-y="-71.802588"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1889,9 +1892,9 @@
        inkscape:transform-center-y="-77.884754"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1903,9 +1906,9 @@
        inkscape:transform-center-y="-84.113697"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1917,9 +1920,9 @@
        inkscape:transform-center-y="-90.48184"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1931,9 +1934,9 @@
        inkscape:transform-center-y="-96.981421"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1945,9 +1948,9 @@
        inkscape:transform-center-y="-103.6045"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1959,9 +1962,9 @@
        inkscape:transform-center-y="-110.34305"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1973,9 +1976,9 @@
        inkscape:transform-center-y="-117.18883"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -1987,9 +1990,9 @@
        inkscape:transform-center-y="-124.13351"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2001,9 +2004,9 @@
        inkscape:transform-center-y="-131.16862"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2015,9 +2018,9 @@
        inkscape:transform-center-y="-138.28559"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2029,9 +2032,9 @@
        inkscape:transform-center-y="-145.47576"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2043,9 +2046,9 @@
        inkscape:transform-center-y="-152.73036"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2057,9 +2060,9 @@
        inkscape:transform-center-y="-160.04056"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2071,9 +2074,9 @@
        inkscape:transform-center-y="-167.39745"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2085,9 +2088,9 @@
        inkscape:transform-center-y="-174.79207"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2099,9 +2102,9 @@
        inkscape:transform-center-y="-182.2154"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2113,9 +2116,9 @@
        inkscape:transform-center-y="-189.65839"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2127,9 +2130,9 @@
        inkscape:transform-center-y="-197.112"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2141,9 +2144,9 @@
        inkscape:transform-center-y="-204.56713"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2155,9 +2158,9 @@
        inkscape:transform-center-y="-212.0147"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2169,9 +2172,9 @@
        inkscape:transform-center-y="-219.44563"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2183,9 +2186,9 @@
        inkscape:transform-center-y="-226.85088"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2197,9 +2200,9 @@
        inkscape:transform-center-y="-234.22142"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2211,9 +2214,9 @@
        inkscape:transform-center-y="-241.54826"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2225,9 +2228,9 @@
        inkscape:transform-center-y="-248.8225"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2239,9 +2242,9 @@
        inkscape:transform-center-y="-256.03526"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2253,9 +2256,9 @@
        inkscape:transform-center-y="-263.17774"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2267,9 +2270,9 @@
        inkscape:transform-center-y="-270.24126"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2281,9 +2284,9 @@
        inkscape:transform-center-y="-277.21721"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2295,9 +2298,9 @@
        inkscape:transform-center-y="-284.09708"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2309,9 +2312,9 @@
        inkscape:transform-center-y="-290.87251"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2323,9 +2326,9 @@
        inkscape:transform-center-y="-297.53522"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2337,9 +2340,9 @@
        inkscape:transform-center-y="-304.07706"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2351,9 +2354,9 @@
        inkscape:transform-center-y="-310.49014"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2365,9 +2368,9 @@
        inkscape:transform-center-y="-316.76661"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2379,9 +2382,9 @@
        inkscape:transform-center-y="-322.89886"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2393,9 +2396,9 @@
        inkscape:transform-center-y="-328.87935"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2407,9 +2410,9 @@
        inkscape:transform-center-y="-334.70084"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2421,9 +2424,9 @@
        inkscape:transform-center-y="-340.35615"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2435,9 +2438,9 @@
        inkscape:transform-center-y="-345.83852"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2449,9 +2452,9 @@
        inkscape:transform-center-y="-351.14122"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2463,9 +2466,9 @@
        inkscape:transform-center-y="-356.25783"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2477,9 +2480,9 @@
        inkscape:transform-center-y="-361.18197"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2491,9 +2494,9 @@
        inkscape:transform-center-y="-365.90777"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2505,9 +2508,9 @@
        inkscape:transform-center-y="-370.42949"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2519,9 +2522,9 @@
        inkscape:transform-center-y="-374.74154"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2533,9 +2536,9 @@
        inkscape:transform-center-y="-378.8387"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2547,9 +2550,9 @@
        inkscape:transform-center-y="-382.71597"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2561,9 +2564,9 @@
        inkscape:transform-center-y="-386.36858"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2575,9 +2578,9 @@
        inkscape:transform-center-y="-389.79219"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2589,9 +2592,9 @@
        inkscape:transform-center-y="-392.98253"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2603,9 +2606,9 @@
        inkscape:transform-center-y="-395.93585"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2617,9 +2620,9 @@
        inkscape:transform-center-y="-398.64835"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2631,9 +2634,9 @@
        inkscape:transform-center-y="-401.11691"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2645,9 +2648,9 @@
        inkscape:transform-center-y="-403.33839"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2659,9 +2662,9 @@
        inkscape:transform-center-y="-405.31012"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2673,9 +2676,9 @@
        inkscape:transform-center-y="-407.02979"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2687,9 +2690,9 @@
        inkscape:transform-center-y="-408.49517"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2701,9 +2704,9 @@
        inkscape:transform-center-y="-409.70456"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2715,9 +2718,9 @@
        inkscape:transform-center-y="-410.65648"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2729,9 +2732,9 @@
        inkscape:transform-center-y="-411.34971"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2743,9 +2746,9 @@
        inkscape:transform-center-y="-411.78354"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2757,9 +2760,9 @@
        inkscape:transform-center-y="-411.95731"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2771,9 +2774,9 @@
        inkscape:transform-center-y="-411.8708"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2785,9 +2788,9 @@
        inkscape:transform-center-y="-411.52419"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2799,9 +2802,9 @@
        inkscape:transform-center-y="-410.91783"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2813,9 +2816,9 @@
        inkscape:transform-center-y="-410.05257"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2827,9 +2830,9 @@
        inkscape:transform-center-y="-408.92934"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2841,9 +2844,9 @@
        inkscape:transform-center-y="-407.54954"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2855,9 +2858,9 @@
        inkscape:transform-center-y="-405.915"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2869,9 +2872,9 @@
        inkscape:transform-center-y="-404.02754"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2883,9 +2886,9 @@
        inkscape:transform-center-y="-401.88941"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2897,9 +2900,9 @@
        inkscape:transform-center-y="-399.50338"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2911,9 +2914,9 @@
        inkscape:transform-center-y="-396.87233"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2925,9 +2928,9 @@
        inkscape:transform-center-y="-393.99943"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2939,9 +2942,9 @@
        inkscape:transform-center-y="-390.88815"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2953,9 +2956,9 @@
        inkscape:transform-center-y="-387.54224"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2967,9 +2970,9 @@
        inkscape:transform-center-y="-383.96597"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2981,9 +2984,9 @@
        inkscape:transform-center-y="-380.16351"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -2995,9 +2998,9 @@
        inkscape:transform-center-y="-376.13951"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3009,9 +3012,9 @@
        inkscape:transform-center-y="-371.89896"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3023,9 +3026,9 @@
        inkscape:transform-center-y="-367.44697"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3037,9 +3040,9 @@
        inkscape:transform-center-y="-362.78899"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3051,9 +3054,9 @@
        inkscape:transform-center-y="-357.93062"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3065,9 +3068,9 @@
        inkscape:transform-center-y="-352.87791"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3079,9 +3082,9 @@
        inkscape:transform-center-y="-347.63694"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3093,9 +3096,9 @@
        inkscape:transform-center-y="-342.21411"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3107,9 +3110,9 @@
        inkscape:transform-center-y="-336.6159"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3121,9 +3124,9 @@
        inkscape:transform-center-y="-330.84934"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3135,9 +3138,9 @@
        inkscape:transform-center-y="-324.92137"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3149,9 +3152,9 @@
        inkscape:transform-center-y="-318.83926"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3163,9 +3166,9 @@
        inkscape:transform-center-y="-312.61028"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3177,9 +3180,9 @@
        inkscape:transform-center-y="-306.24212"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3191,9 +3194,9 @@
        inkscape:transform-center-y="-299.74261"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3205,9 +3208,9 @@
        inkscape:transform-center-y="-293.11945"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3219,9 +3222,9 @@
        inkscape:transform-center-y="-286.38093"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3233,9 +3236,9 @@
        inkscape:transform-center-y="-279.53519"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3247,9 +3250,9 @@
        inkscape:transform-center-y="-272.59048"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3261,9 +3264,9 @@
        inkscape:transform-center-y="-265.55536"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3275,9 +3278,9 @@
        inkscape:transform-center-y="-258.43846"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3289,9 +3292,9 @@
        inkscape:transform-center-y="-251.24829"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3303,9 +3306,9 @@
        inkscape:transform-center-y="-243.99365"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3317,9 +3320,9 @@
        inkscape:transform-center-y="-236.68348"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3331,9 +3334,9 @@
        inkscape:transform-center-y="-229.32653"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3345,9 +3348,9 @@
        inkscape:transform-center-y="-221.9319"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3359,9 +3362,9 @@
        inkscape:transform-center-y="-214.50857"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3373,9 +3376,9 @@
        inkscape:transform-center-y="-207.06562"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3387,9 +3390,9 @@
        inkscape:transform-center-y="-199.61197"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3401,9 +3404,9 @@
        inkscape:transform-center-y="-192.15689"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3415,9 +3418,9 @@
        inkscape:transform-center-y="-184.70931"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3429,9 +3432,9 @@
        inkscape:transform-center-y="-177.27838"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3443,9 +3446,9 @@
        inkscape:transform-center-y="-169.87312"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3457,9 +3460,9 @@
        inkscape:transform-center-y="-162.50258"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3471,9 +3474,9 @@
        inkscape:transform-center-y="-155.17573"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3485,9 +3488,9 @@
        inkscape:transform-center-y="-147.90149"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3499,9 +3502,9 @@
        inkscape:transform-center-y="-140.68874"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3513,9 +3516,9 @@
        inkscape:transform-center-y="-133.54626"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3527,9 +3530,9 @@
        inkscape:transform-center-y="-126.48273"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3541,9 +3544,9 @@
        inkscape:transform-center-y="-119.50679"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3555,9 +3558,9 @@
        inkscape:transform-center-y="-112.62691"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3569,9 +3572,9 @@
        inkscape:transform-center-y="-105.85149"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3583,9 +3586,9 @@
        inkscape:transform-center-y="-99.188787"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3597,9 +3600,9 @@
        inkscape:transform-center-y="-92.646898"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3611,9 +3614,9 @@
        inkscape:transform-center-y="-86.23382"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3625,9 +3628,9 @@
        inkscape:transform-center-y="-79.95734"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3639,9 +3642,9 @@
        inkscape:transform-center-y="-73.825124"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3653,9 +3656,9 @@
        inkscape:transform-center-y="-67.844633"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3667,9 +3670,9 @@
        inkscape:transform-center-y="-62.023168"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3681,9 +3684,9 @@
        inkscape:transform-center-y="-56.367801"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3695,9 +3698,9 @@
        inkscape:transform-center-y="-50.885435"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3709,9 +3712,9 @@
        inkscape:transform-center-y="-45.582745"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3723,9 +3726,9 @@
        inkscape:transform-center-y="-40.46619"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3737,9 +3740,9 @@
        inkscape:transform-center-y="-35.54202"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3751,9 +3754,9 @@
        inkscape:transform-center-y="-30.81622"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3765,9 +3768,9 @@
        inkscape:transform-center-y="-26.294538"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3779,9 +3782,9 @@
        inkscape:transform-center-y="-21.982491"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3793,9 +3796,9 @@
        inkscape:transform-center-y="-17.88534"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3807,9 +3810,9 @@
        inkscape:transform-center-y="-14.008078"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3821,9 +3824,9 @@
        inkscape:transform-center-y="-10.355417"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3835,9 +3838,9 @@
        inkscape:transform-center-y="-6.9318054"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3849,9 +3852,9 @@
        inkscape:transform-center-y="-3.7414343"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3863,9 +3866,9 @@
        inkscape:transform-center-y="-0.78817721"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3877,9 +3880,9 @@
        inkscape:transform-center-y="1.9243683"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3891,9 +3894,9 @@
        inkscape:transform-center-y="4.392905"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3905,9 +3908,9 @@
        inkscape:transform-center-y="6.6144026"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3919,9 +3922,9 @@
        inkscape:transform-center-y="8.5861724"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3933,9 +3936,9 @@
        inkscape:transform-center-y="10.305805"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3947,9 +3950,9 @@
        inkscape:transform-center-y="11.771208"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3961,9 +3964,9 @@
        inkscape:transform-center-y="12.980604"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3975,9 +3978,9 @@
        inkscape:transform-center-y="13.932512"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -3989,9 +3992,9 @@
        inkscape:transform-center-y="14.625762"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <use
        x="0"
        y="0"
@@ -4003,18 +4006,18 @@
        inkscape:transform-center-y="15.059525"
        width="480"
        height="854"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-ydpi="102.57" />
     <text
        inkscape:tile-y0="797.22882"
        inkscape:tile-x0="233.0957"
        inkscape:transform-center-x="0.26516503"
        transform="scale(-1,-1)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4074"
        y="-995.59082"
@@ -4032,9 +4035,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(-0.93969262,-0.34202014,0.34202014,-0.93969262,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4076"
        y="-864.24603"
@@ -4052,9 +4055,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(-0.76604444,-0.64278761,0.64278761,-0.76604444,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4078"
        y="-651.16425"
@@ -4072,9 +4075,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4080"
        y="-381.20706"
@@ -4092,9 +4095,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(-0.17364818,-0.98480775,0.98480775,-0.17364818,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4082"
        y="-87.575775"
@@ -4112,9 +4115,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(0.17364818,-0.98480775,0.98480775,0.17364818,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4084"
        y="194.77647"
@@ -4132,9 +4135,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(0.5,-0.8660254,0.8660254,0.5,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4086"
        y="431.39148"
@@ -4152,9 +4155,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(0.76604444,-0.64278761,0.64278761,0.76604444,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4088"
        y="593.17242"
@@ -4172,9 +4175,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(0.93969262,-0.34202014,0.34202014,0.93969262,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4090"
        y="662.46008"
@@ -4191,9 +4194,9 @@
        inkscape:tile-x0="233.0957"
        inkscape:transform-center-x="0.26516503"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4092"
        y="629.8446"
@@ -4211,9 +4214,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(0.93969262,0.34202014,-0.34202014,0.93969262,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4094"
        y="498.44827"
@@ -4231,9 +4234,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(0.76604444,0.64278761,-0.64278761,0.76604444,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4096"
        y="284.18356"
@@ -4251,9 +4254,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(0.5,0.8660254,-0.8660254,0.5,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4098"
        y="14.413168"
@@ -4271,9 +4274,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(0.17364818,0.98480775,-0.98480775,0.17364818,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4100"
        y="-278.30487"
@@ -4291,9 +4294,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(-0.17364818,0.98480775,-0.98480775,-0.17364818,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4102"
        y="-560.33051"
@@ -4311,9 +4314,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4104"
        y="-796.96478"
@@ -4331,9 +4334,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(-0.76604444,0.64278761,-0.64278761,-0.76604444,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4106"
        y="-960.28552"
@@ -4351,9 +4354,9 @@
        inkscape:transform-center-x="0.26516503"
        transform="matrix(-0.93969262,0.34202014,-0.34202014,-0.93969262,0,0)"
        inkscape:transform-center-y="-8.1988347"
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
+       inkscape:export-ydpi="102.57"
+       inkscape:export-xdpi="102.57"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_360_day.png"
        sodipodi:linespacing="125%"
        id="use4108"
        y="-1029.0591"
@@ -19292,20 +19295,20 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Needle day"
-     style="display:none">
+     style="display:inline">
     <path
        style="fill:none;stroke:none"
        d="m 235.64333,468.62681 5.3033,-7.42462 4.77297,7.42462 z"
        id="path9801"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/vuorisal/Dropbox/orienteeringcompass/compass_needle_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day.png"
+       inkscape:export-xdpi="104.97"
+       inkscape:export-ydpi="104.97" />
     <g
        id="g9919"
-       inkscape:export-filename="/home/vuorisal/Dropbox/orienteeringcompass/compass_needle_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409">
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day.png"
+       inkscape:export-xdpi="104.97"
+       inkscape:export-ydpi="104.97">
       <g
          id="g9863">
         <path
