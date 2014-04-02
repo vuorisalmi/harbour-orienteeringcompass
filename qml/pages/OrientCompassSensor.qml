@@ -65,7 +65,7 @@ Item {
             // TODO: normalize azimuth to 0-360??
             azimuth = reading.azimuth;
             rightDirection = (Math.abs(azimuth - __normalDirection) < 2.0 || Math.abs(azimuth - __normalDirection) > 358.0)
-            console.log("Compass reading: " + reading.azimuth + " direction: " + compass.__normalDirection)
+            //console.log("Compass reading: " + reading.azimuth + " direction: " + compass.__normalDirection)
         }
         onActiveChanged: {
             // Debug purposes only

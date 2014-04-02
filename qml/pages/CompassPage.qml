@@ -36,6 +36,8 @@ import Sailfish.Silica 1.0
 Page {
     id: page
 
+    property OrientCompassSensor compass
+
     // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
         anchors.fill: parent
@@ -57,11 +59,11 @@ Page {
         // Tell SilicaFlickable the height of its content.
         contentHeight: pageContent.height
 
-        OrientCompassSensor {
-            id: compass
-            active: true
-            direction: compassCapsule.direction
-        }
+//        OrientCompassSensor {
+//            id: compass
+//            active: true
+//            direction: compassCapsule.direction
+//        }
 
         Item {
             id: pageContent
@@ -96,6 +98,20 @@ Page {
             color: Theme.highlightColor
         }
 
+    }
+
+    Component.onCompleted: {
+        compass.direction = Qt.binding(function() { return compassCapsule.direction; })
+    }
+
+    // TODO: investigating the behavior of the page.status property
+    onStatusChanged: {
+        var statusText = "";
+        if (page.status === PageStatus.Inactive) { statusText = "Inactive"; }
+        else if (page.status === PageStatus.Activating) { statusText = "Activating"; }
+        else if (page.status === PageStatus.Active) { statusText = "Active"; }
+        else if (page.status === PageStatus.Deactivating) { statusText = "Deactivating"; }
+        console.log("CompassPage status: " + statusText + "(" + page.status + ")");
     }
 }
 

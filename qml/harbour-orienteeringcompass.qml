@@ -32,12 +32,34 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import org.freedesktop.contextkit 1.0
 import "pages"
 
 ApplicationWindow
 {
-    initialPage: Component { CompassPage { } }
-    cover: Component { CoverPage { } }
+    initialPage: Component { CompassPage { compass: sharedCompass } }
+    cover: Component { CoverPage { compass: sharedCompass } }
+
+    OrientCompassSensor {
+        id: sharedCompass
+        active: true
+    }
+
+    // TODO: experimenting...
+    onApplicationActiveChanged: {
+        var actText = applicationActive ? "ACTIVE" : "Inactive";
+        console.log("Application: " + actText);
+    }
+
+    ContextProperty {
+        id: screenBlanked
+        key: "Screen.Blanked"
+        value: 0
+
+        onValueChanged: {
+            console.log("Screen: " + ((value) ? "Off" : "On"));
+        }
+    }
 }
 
 
