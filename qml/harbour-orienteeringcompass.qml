@@ -45,10 +45,15 @@ ApplicationWindow
         active: true
     }
 
-    // TODO: experimenting...
+    // Main logic for the compass sensor on/off "state machine" is here:
+    // decided by application being active (=foreground, full-screen) and
+    // display being on/off.
+    // In addition, the cover provides means to manually switch compass on/off.
     onApplicationActiveChanged: {
-        var actText = applicationActive ? "ACTIVE" : "Inactive";
-        console.log("Application: " + actText);
+        console.log("*Application: " + (applicationActive ? "ACTIVE" : "Inactive"));
+        if (applicationActive) {
+            sharedCompass.active = true;
+        }
     }
 
     ContextProperty {
@@ -57,7 +62,14 @@ ApplicationWindow
         value: 0
 
         onValueChanged: {
-            console.log("Screen: " + ((value) ? "Off" : "On"));
+            console.log("*Screen: " + ((value) ? "Off (" : "On (") + value + ")");
+            if (value > 0) {
+                // Screen is OFF --> compass always off
+                sharedCompass.active = false;
+            } else if (value === 0 && applicationActive) {
+                // Screen is ON --> turn compass on if app is active, otherwise just leave it to the Cover to decide
+                sharedCompass.active = true;
+            }
         }
     }
 }

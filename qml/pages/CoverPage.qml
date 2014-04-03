@@ -55,7 +55,8 @@ CoverBackground {
         id: coverAction
 
         CoverAction {
-            iconSource: "image://theme/icon-cover-pause"
+            iconSource: (compass.active) ? "image://theme/icon-cover-pause" : "image://theme/icon-cover-play"
+            onTriggered: { compass.active = !compass.active; }
         }
     }
 }
