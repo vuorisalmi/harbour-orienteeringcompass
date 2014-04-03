@@ -38,17 +38,15 @@ CoverBackground {
 
     Label {
         id: titleLabel
+        text: compass.active ? compass.azimuth : "Compass<br>paused"
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.top: parent.top
+        anchors.top: parent.top        
         anchors.topMargin: Theme.paddingLarge
-        text: "Compass"
-    }
-    Label {
-        id: azimuthLabel
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.top: titleLabel.bottom
-        anchors.topMargin: Theme.paddingLarge
-        text: compass.azimuth
+        width: parent.width - 2 * Theme.paddingLarge
+        horizontalAlignment: Text.AlignHCenter
+        wrapMode: TextEdit.WordWrap
+        font.pixelSize: compass.active ? Theme.fontSizeExtraLarge : Theme.fontSizeMedium
+        color: compass.active ? Theme.highlightColor : Theme.primaryColor
     }
 
     CoverActionList {
