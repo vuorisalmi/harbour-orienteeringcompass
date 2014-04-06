@@ -27,6 +27,11 @@ Item {
         height: compassCapsule.height
 
         Image {
+            source: "../images/compass_ring_lines_white.png"
+            anchors.centerIn: parent
+            Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
+        }
+        Image {
             id: ringImage
             source: "../images/compass_ring_" + compassScale + "_day.png"
             anchors.centerIn: parent
