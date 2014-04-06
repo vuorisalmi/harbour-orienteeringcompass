@@ -100,6 +100,43 @@ Page {
 
     }
 
+    MultiToggleButton {
+        id: scaleButton
+        anchors.bottom: parent.bottom
+        anchors.left: parent.left
+        anchors.margins: Theme.paddingLarge
+        name: "scale"
+        valueList: [ "360", "400", "6000" ]
+        onCurrentIndexChanged: {
+//            scaleDialog.selectedIndex = currentIndex
+//            scaleSetting.value = currentIndex
+            console.log("Scale button: current index: " + currentIndex);
+        }
+    }
+
+    // TEST
+//    Image {
+//        source: "../images/icon_scale_360_white.png"
+//        anchors.bottom: parent.bottom
+//        anchors.left: parent.left
+//        anchors.margins: Theme.paddingLarge
+//        width: 56; height: 56
+//    }
+//    Image {
+//        source: "../images/icon_scale_400_white.png"
+//        anchors.bottom: parent.bottom
+//        anchors.right: parent.right
+//        anchors.margins: Theme.paddingLarge
+//        width: 56; height: 56
+//    }
+//    Image {
+//        source: "../images/icon_scale_6000_white.png"
+//        anchors.top: parent.top
+//        anchors.left: parent.left
+//        anchors.margins: Theme.paddingLarge
+//        width: 56; height: 56
+//    }
+
     Component.onCompleted: {
         compass.direction = Qt.binding(function() { return compassCapsule.direction; })
     }
