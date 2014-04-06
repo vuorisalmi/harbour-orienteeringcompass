@@ -87,6 +87,7 @@ Page {
             anchors.bottomMargin: 60
 
             azimuth: compass.azimuth
+            compassScale: scaleButton.currentValue // TODO: bind to settings
         }
 
         Rectangle {
@@ -110,7 +111,7 @@ Page {
         onCurrentIndexChanged: {
 //            scaleDialog.selectedIndex = currentIndex
 //            scaleSetting.value = currentIndex
-            console.log("Scale button: current index: " + currentIndex);
+            //console.log("Scale button: current index: " + currentIndex);
         }
     }
 

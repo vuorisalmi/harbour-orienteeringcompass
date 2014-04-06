@@ -1,0 +1,36 @@
+TODO / Orienteering Compass
+===========================
+
+* Compass graphics src: re-scale the svg
+
+* Compass ring/capsule graphics: simplify, color etc.
+
+* Compass needle graphics
+
+* Scale: draw 400/6000 graphics & make the scale switch work
+
+* Nightmode
+
+* Direction value visible on compass page
+
+* Graphics and highlights for azimuth & direction
+
+* Cover: compass needle and other graphics
+
+* Settings (buttons, settings dialog, cover)
+
+* Settings saved
+
+* Calibration dialog
+
+* Calibration indicator on compass page
+
+* About dialog content
+
+* Setting for compass default on/off when in background?
+
+* Vibra?
+
+-----
+
+* Declination

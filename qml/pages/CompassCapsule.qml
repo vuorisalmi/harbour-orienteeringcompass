@@ -7,6 +7,7 @@ Item {
 
     property real direction: - compassRing.rotation   // In degrees
     property real azimuth: 0.0     // In degrees, set (bind) from outside, the compass needle follows this
+    property string compassScale   // Current scale as a string, e.g. "360"
 
     property bool changingDirection: false
     property real previousAngle: 0
@@ -27,7 +28,7 @@ Item {
 
         Image {
             id: ringImage
-            source: "../images/compass_ring_" + "360" + "_day.png"
+            source: "../images/compass_ring_" + compassScale + "_day.png"
             anchors.centerIn: parent
             Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
         }
