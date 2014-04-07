@@ -42,12 +42,26 @@ Item {
         }
     }
 
+
     // The needle of the compass
     Image {
-        id: compassNeedle
-        source: "../images/compass_needle_day.png"
+        source: "../images/compass_needle_day_S.png"
         anchors.centerIn: parent
         rotation: - compassCapsule.azimuth
+        Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
+    }
+//    Image {
+//        source: "../images/compass_needle_day_N_red.png"
+//        anchors.centerIn: parent
+//        rotation: - compassCapsule.azimuth
+//        Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
+//    }
+    RGBIcon {
+        source: "../images/compass_needle_day_N_?.png"
+        color: Theme.highlightColor
+        anchors.centerIn: parent
+        rotation: - compassCapsule.azimuth
+        width: 40; height: 384
         Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
     }
 

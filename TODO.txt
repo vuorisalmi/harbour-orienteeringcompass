@@ -1,7 +1,7 @@
 TODO / Orienteering Compass
 ===========================
 
-* Compass needle graphics
+* Compass needle graphics: ambient highlight or always red?
 
 * Scale: draw 400/6000 graphics & make the scale switch work
 
