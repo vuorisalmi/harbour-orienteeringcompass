@@ -31,12 +31,12 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-//import QtSensors 5.0
 
 Page {
     id: page
 
     property OrientCompassSensor compass
+    property CompassSettings settings
 
     // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
@@ -59,12 +59,7 @@ Page {
         // Tell SilicaFlickable the height of its content.
         contentHeight: pageContent.height
 
-//        OrientCompassSensor {
-//            id: compass
-//            active: true
-//            direction: compassCapsule.direction
-//        }
-
+        // TODO: anchoring...
         Item {
             id: pageContent
             width: page.width
@@ -87,7 +82,7 @@ Page {
             anchors.bottomMargin: 60
 
             azimuth: compass.azimuth
-            compassScale: scaleButton.currentValue // TODO: bind to settings
+            compassScale: settings.compassScaleStr
         }
 
         Rectangle {
@@ -108,10 +103,8 @@ Page {
         anchors.margins: Theme.paddingLarge
         name: "scale"
         valueList: [ "360", "400", "6000" ]
-        onCurrentIndexChanged: {
-//            scaleDialog.selectedIndex = currentIndex
-//            scaleSetting.value = currentIndex
-            //console.log("Scale button: current index: " + currentIndex);
+        onCurrentValueChanged: {
+            settings.compassScaleStr = currentValue
         }
     }
 
@@ -140,6 +133,7 @@ Page {
 
     Component.onCompleted: {
         compass.direction = Qt.binding(function() { return compassCapsule.direction; })
+        compass.compassScaleVal = Qt.binding(function() { return settings.compassScaleVal; })
     }
 
     // TODO: investigating the behavior of the page.status property

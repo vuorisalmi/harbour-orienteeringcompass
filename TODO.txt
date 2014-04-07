@@ -3,8 +3,6 @@ TODO / Orienteering Compass
 
 * Compass needle graphics: ambient highlight or always red?
 
-* Scale: draw 400/6000 graphics & make the scale switch work
-
 * Nightmode
 
 * Direction value visible on compass page

@@ -29,53 +29,14 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-
 import QtQuick 2.0
-import Sailfish.Silica 1.0
-import org.freedesktop.contextkit 1.0
-import "pages"
 
-ApplicationWindow
-{
-    initialPage: Component { CompassPage { compass: sharedCompass; settings: sharedSettings } }
-    cover: Component { CoverPage { compass: sharedCompass } }
+// Non-viaual item
+Item {
+    id: settings
 
-    OrientCompassSensor {
-        id: sharedCompass
-        active: true
-    }
+    // TODO: read default values somewhere?
+    property string compassScaleStr: "360"  // Scale as string, set this
+    property real compassScaleVal: 1 * compassScaleStr  // read-only
 
-    CompassSettings {
-        id: sharedSettings
-    }
-
-    // Main logic for the compass sensor on/off "state machine" is here:
-    // decided by application being active (=foreground, full-screen) and
-    // display being on/off.
-    // In addition, the cover provides means to manually switch compass on/off.
-    onApplicationActiveChanged: {
-        console.log("*Application: " + (applicationActive ? "ACTIVE" : "Inactive"));
-        if (applicationActive) {
-            sharedCompass.active = true;
-        }
-    }
-
-    ContextProperty {
-        id: screenBlanked
-        key: "Screen.Blanked"
-        value: 0
-
-        onValueChanged: {
-            console.log("*Screen: " + ((value) ? "Off (" : "On (") + value + ")");
-            if (value > 0) {
-                // Screen is OFF --> compass always off
-                sharedCompass.active = false;
-            } else if (value === 0 && applicationActive) {
-                // Screen is ON --> turn compass on if app is active, otherwise just leave it to the Cover to decide
-                sharedCompass.active = true;
-            }
-        }
-    }
 }
-
-
