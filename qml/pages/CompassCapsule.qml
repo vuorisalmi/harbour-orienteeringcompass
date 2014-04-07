@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import Sailfish.Silica 1.0
 
 Item {
     id: compassCapsule
@@ -26,9 +27,11 @@ Item {
         width: compassCapsule.width
         height: compassCapsule.height
 
-        Image {
-            source: "../images/compass_ring_lines_white.png"
+        RGBIcon {
+            source: "../images/compass_ring_lines_day_?.png"
+            color: Theme.highlightColor
             anchors.centerIn: parent
+            width: 300; height: 354  // !!! Update whenever you regenerate the images !!!
             Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
         }
         Image {

@@ -654,11 +654,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2812501"
-     inkscape:cx="296.51908"
-     inkscape:cy="298.79202"
+     inkscape:zoom="1.6416017"
+     inkscape:cx="241.13377"
+     inkscape:cy="310.23947"
      inkscape:document-units="px"
-     inkscape:current-layer="g6948"
+     inkscape:current-layer="g4609"
      showgrid="false"
      width="480px"
      inkscape:window-width="1388"
@@ -675,7 +675,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -684,7 +684,7 @@
      id="layer11"
      inkscape:label="Background"
      sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:none">
     <rect
        style="fill:#6c5353;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect6934"
@@ -781,7 +781,7 @@
        sodipodi:cy="623.48322"
        sodipodi:rx="114.90485"
        sodipodi:ry="156.97771"
-       d="m 386.78741,623.48322 a 114.90485,156.97771 0 1 1 -229.80969,0 114.90485,156.97771 0 1 1 229.80969,0 z"
+       d="m 386.78741,623.48322 c 0,86.69639 -51.44465,156.9777 -114.90484,156.9777 -63.4602,0 -114.90485,-70.28131 -114.90485,-156.9777 0,-86.6964 51.44465,-156.97771 114.90485,-156.97771 63.46019,0 114.90484,70.28131 114.90484,156.97771 z"
        transform="matrix(1.5665136,0,0,1.1466596,-185.90774,-97.923009)"
        inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_base_day.png"
        inkscape:export-xdpi="90"
@@ -815,7 +815,7 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Base new"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,106)">
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline"
@@ -881,7 +881,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_base_night.png"
        transform="matrix(1.5665136,0,0,1.1466596,-185.90773,-100.92304)"
-       d="m 386.78741,623.48322 a 114.90485,156.97771 0 1 1 -229.80969,0 114.90485,156.97771 0 1 1 229.80969,0 z"
+       d="m 386.78741,623.48322 c 0,86.69639 -51.44465,156.9777 -114.90484,156.9777 -63.4602,0 -114.90485,-70.28131 -114.90485,-156.9777 0,-86.6964 51.44465,-156.97771 114.90485,-156.97771 63.46019,0 114.90484,70.28131 114.90484,156.97771 z"
        sodipodi:ry="156.97771"
        sodipodi:rx="114.90485"
        sodipodi:cy="623.48322"
@@ -899,89 +899,17 @@
        style="fill:#000000;fill-rule:evenodd;stroke:none;display:inline" />
   </g>
   <g
-     inkscape:groupmode="layer"
-     id="layer6"
-     inkscape:label="Ring BG line red"
-     style="display:none">
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
-       id="rect3794-1"
-       width="10"
-       height="106"
-       x="226"
-       y="472.53915"
-       ry="0"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline"
-       id="rect3794-4-6-53"
-       width="2.5"
-       height="292"
-       x="-361.5"
-       y="504"
-       ry="0"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409"
-       transform="scale(-1,1)" />
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline"
-       id="rect3794-4-2-93"
-       width="2.5"
-       height="292"
-       x="178.5"
-       y="504"
-       ry="0"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline"
-       id="rect3794-4-2-7-10"
-       width="2.5"
-       height="174"
-       x="122"
-       y="563"
-       ry="0"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline"
-       id="rect3794-4-2-9-9"
-       width="2.5"
-       height="174"
-       x="415"
-       y="563"
-       ry="0"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-ydpi="90.256409" />
-    <rect
-       inkscape:export-ydpi="90.256409"
-       inkscape:export-xdpi="90.256409"
-       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_ring_360_day.png"
-       ry="0"
-       y="473.31964"
-       x="304"
-       height="106"
-       width="10"
-       id="rect6940"
-       style="fill:#ff0000;fill-opacity:1;stroke:none" />
-  </g>
-  <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Ring BG line white"
      id="g6948"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <rect
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
        ry="0"
-       y="472.53915"
+       y="473"
        x="228"
        height="106"
        width="10"
@@ -994,9 +922,9 @@
        inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
        ry="0"
        y="504"
-       x="-361.5"
+       x="-362"
        height="292"
-       width="2.5"
+       width="2"
        id="rect6952"
        style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
     <rect
@@ -1005,9 +933,9 @@
        inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
        ry="0"
        y="504"
-       x="178.5"
+       x="178"
        height="292"
-       width="2.5"
+       width="2"
        id="rect6954"
        style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
     <rect
@@ -1016,9 +944,9 @@
        inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
        ry="0"
        y="563"
-       x="122"
+       x="120"
        height="174"
-       width="2.5"
+       width="2"
        id="rect6956"
        style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
     <rect
@@ -1027,9 +955,9 @@
        inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
        ry="0"
        y="563"
-       x="415"
+       x="418"
        height="174"
-       width="2.5"
+       width="2"
        id="rect6958"
        style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline" />
     <rect
@@ -1038,7 +966,7 @@
        width="10"
        height="106"
        x="302"
-       y="473.31964"
+       y="473"
        ry="0"
        inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
        inkscape:export-xdpi="90"
@@ -1046,9 +974,9 @@
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect7733"
-       width="2.5"
+       width="2"
        height="106"
-       x="235.5"
+       x="236"
        y="721"
        ry="0"
        inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
@@ -1062,9 +990,674 @@
        y="721"
        x="302"
        height="106"
-       width="2.5"
+       width="2"
        id="rect7735"
        style="fill:#ffffff;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g4501"
+     inkscape:label="Ring BG line black"
+     style="display:none">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4503"
+       width="10"
+       height="106"
+       x="228"
+       y="473"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+       id="rect4505"
+       width="2"
+       height="292"
+       x="-362"
+       y="504"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+       id="rect4507"
+       width="2"
+       height="292"
+       x="178"
+       y="504"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+       id="rect4509"
+       width="2"
+       height="174"
+       x="120"
+       y="563"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+       id="rect4511"
+       width="2"
+       height="174"
+       x="418"
+       y="563"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="473"
+       x="302"
+       height="106"
+       width="10"
+       id="rect4513"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="721"
+       x="236"
+       height="106"
+       width="2"
+       id="rect4515"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4517"
+       width="2"
+       height="106"
+       x="302"
+       y="721"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="Ring BG line red"
+     id="g4519"
+     inkscape:groupmode="layer">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="473"
+       x="228"
+       height="106"
+       width="10"
+       id="rect4521"
+       style="fill:#ff0000;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(-1,1)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="504"
+       x="-362"
+       height="292"
+       width="2"
+       id="rect4523"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="504"
+       x="178"
+       height="292"
+       width="2"
+       id="rect4525"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="563"
+       x="120"
+       height="174"
+       width="2"
+       id="rect4527"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="563"
+       x="418"
+       height="174"
+       width="2"
+       id="rect4529"
+       style="fill:#ff0000;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4531"
+       width="10"
+       height="106"
+       x="302"
+       y="473"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4533"
+       width="2"
+       height="106"
+       x="236"
+       y="721"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="721"
+       x="302"
+       height="106"
+       width="2"
+       id="rect4535"
+       style="fill:#ff0000;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g4537"
+     inkscape:label="Ring BG line green"
+     style="display:none">
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="rect4539"
+       width="10"
+       height="106"
+       x="228"
+       y="473"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+       id="rect4541"
+       width="2"
+       height="292"
+       x="-362"
+       y="504"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+       id="rect4543"
+       width="2"
+       height="292"
+       x="178"
+       y="504"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+       id="rect4545"
+       width="2"
+       height="174"
+       x="120"
+       y="563"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+       id="rect4547"
+       width="2"
+       height="174"
+       x="418"
+       y="563"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="473"
+       x="302"
+       height="106"
+       width="10"
+       id="rect4549"
+       style="fill:#00ff00;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="721"
+       x="236"
+       height="106"
+       width="2"
+       id="rect4551"
+       style="fill:#00ff00;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="rect4553"
+       width="2"
+       height="106"
+       x="302"
+       y="721"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="Ring BG line blue"
+     id="g4555"
+     inkscape:groupmode="layer">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="473"
+       x="228"
+       height="106"
+       width="10"
+       id="rect4557"
+       style="fill:#0000ff;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(-1,1)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="504"
+       x="-362"
+       height="292"
+       width="2"
+       id="rect4559"
+       style="fill:#0000ff;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="504"
+       x="178"
+       height="292"
+       width="2"
+       id="rect4561"
+       style="fill:#0000ff;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="563"
+       x="120"
+       height="174"
+       width="2"
+       id="rect4563"
+       style="fill:#0000ff;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="563"
+       x="418"
+       height="174"
+       width="2"
+       id="rect4565"
+       style="fill:#0000ff;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect4567"
+       width="10"
+       height="106"
+       x="302"
+       y="473"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect4569"
+       width="2"
+       height="106"
+       x="236"
+       y="721"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="721"
+       x="302"
+       height="106"
+       width="2"
+       id="rect4571"
+       style="fill:#0000ff;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g4573"
+     inkscape:label="Ring BG line red+green"
+     style="display:none">
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none"
+       id="rect4575"
+       width="10"
+       height="106"
+       x="228"
+       y="473"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none;display:inline"
+       id="rect4577"
+       width="2"
+       height="292"
+       x="-362"
+       y="504"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none;display:inline"
+       id="rect4579"
+       width="2"
+       height="292"
+       x="178"
+       y="504"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none;display:inline"
+       id="rect4581"
+       width="2"
+       height="174"
+       x="120"
+       y="563"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none;display:inline"
+       id="rect4583"
+       width="2"
+       height="174"
+       x="418"
+       y="563"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="473"
+       x="302"
+       height="106"
+       width="10"
+       id="rect4585"
+       style="fill:#ffff00;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="721"
+       x="236"
+       height="106"
+       width="2"
+       id="rect4587"
+       style="fill:#ffff00;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:none"
+       id="rect4589"
+       width="2"
+       height="106"
+       x="302"
+       y="721"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="Ring BG line red+blue"
+     id="g4591"
+     inkscape:groupmode="layer">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="473"
+       x="228"
+       height="106"
+       width="10"
+       id="rect4593"
+       style="fill:#ff00ff;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(-1,1)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="504"
+       x="-362"
+       height="292"
+       width="2"
+       id="rect4595"
+       style="fill:#ff00ff;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="504"
+       x="178"
+       height="292"
+       width="2"
+       id="rect4597"
+       style="fill:#ff00ff;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="563"
+       x="120"
+       height="174"
+       width="2"
+       id="rect4599"
+       style="fill:#ff00ff;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="563"
+       x="418"
+       height="174"
+       width="2"
+       id="rect4601"
+       style="fill:#ff00ff;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#ff00ff;fill-opacity:1;stroke:none"
+       id="rect4603"
+       width="10"
+       height="106"
+       x="302"
+       y="473"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ff00ff;fill-opacity:1;stroke:none"
+       id="rect4605"
+       width="2"
+       height="106"
+       x="236"
+       y="721"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="721"
+       x="302"
+       height="106"
+       width="2"
+       id="rect4607"
+       style="fill:#ff00ff;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g4609"
+     inkscape:label="Ring BG line green+blue"
+     style="display:inline">
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect4611"
+       width="10"
+       height="106"
+       x="228"
+       y="473"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none;display:inline"
+       id="rect4613"
+       width="2"
+       height="292"
+       x="-362"
+       y="504"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none;display:inline"
+       id="rect4615"
+       width="2"
+       height="292"
+       x="178"
+       y="504"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none;display:inline"
+       id="rect4617"
+       width="2"
+       height="174"
+       x="120"
+       y="563"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none;display:inline"
+       id="rect4619"
+       width="2"
+       height="174"
+       x="418"
+       y="563"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="473"
+       x="302"
+       height="106"
+       width="10"
+       id="rect4621"
+       style="fill:#00ffff;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       ry="0"
+       y="721"
+       x="236"
+       height="106"
+       width="2"
+       id="rect4623"
+       style="fill:#00ffff;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect4625"
+       width="2"
+       height="106"
+       x="302"
+       y="721"
+       ry="0"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_ring_lines_white.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      style="display:none"
@@ -20801,8 +21394,9 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Needle day"
-     style="display:inline"
-     transform="translate(0,106)">
+     style="display:none"
+     transform="translate(0,106)"
+     sodipodi:insensitive="true">
     <g
        id="g6926"
        inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day.png"

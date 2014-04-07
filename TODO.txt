@@ -1,10 +1,6 @@
 TODO / Orienteering Compass
 ===========================
 
-* Compass graphics src: re-scale the svg
-
-* Compass ring/capsule graphics: simplify, color etc.
-
 * Compass needle graphics
 
 * Scale: draw 400/6000 graphics & make the scale switch work
