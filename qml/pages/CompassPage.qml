@@ -56,24 +56,9 @@ Page {
             }
         }
 
-        // Tell SilicaFlickable the height of its content.
-        contentHeight: pageContent.height
+        contentHeight: Screen.height // pageContent.height
 
-        // TODO: anchoring...
-        Item {
-            id: pageContent
-            width: page.width
-            height: Screen.height
-
-            Label {
-                anchors.horizontalCenter: parent.horizontalCenter
-                y: 100 //height * 0.2
-
-                text: compass.scaledAzimuth.toFixed(0)
-                color: (compass.rightDirection) ? Theme.highlightColor : Theme.secondaryHighlightColor
-                font.pixelSize: 100
-            }
-        }
+        // The main components of the compass page from page bottom to top
 
         CompassCapsule {
             id: compassCapsule
@@ -85,13 +70,34 @@ Page {
             compassScale: settings.compassScaleStr
         }
 
-        Rectangle {
-            width: 4
-            height: 160
+        Label {
+            id: directionLabel
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.bottom: compassCapsule.top
-            anchors.bottomMargin: 20
-            color: Theme.highlightColor
+            anchors.bottomMargin: 4
+            color: compassCapsule.changingDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
+            font.pixelSize: Theme.fontSizeMedium
+            text: compass.scaledDirection.toFixed(0)
+        }
+
+        Rectangle {
+            id: directionLine
+            width: 2
+            height: 160
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: directionLabel.top
+            anchors.bottomMargin: 10
+            color: compass.rightDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
+        }
+
+        Label {
+            id: azimuthLabel
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: directionLine.top
+            anchors.bottomMargin: 0  // There seems to be enough space
+            color: compass.rightDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
+            font.pixelSize: 100
+            text: compass.scaledAzimuth.toFixed(0)
         }
 
     }

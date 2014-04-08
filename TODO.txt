@@ -5,8 +5,6 @@ TODO / Orienteering Compass
 
 * Nightmode
 
-* Direction value visible on compass page
-
 * Graphics and highlights for azimuth & direction
 
 * Cover: compass needle and other graphics

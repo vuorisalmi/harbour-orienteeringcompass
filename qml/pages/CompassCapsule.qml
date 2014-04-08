@@ -6,12 +6,18 @@ Item {
     width: 500
     height: 500
 
-    property real direction: - compassRing.rotation   // In degrees
+    // Normalizing the angle is a bit unnecessary here...
+    property real direction: normalize360(- compassRing.rotation)  // In degrees, 0-359
     property real azimuth: 0.0     // In degrees, set (bind) from outside, the compass needle follows this
     property string compassScale   // Current scale as a string, e.g. "360"
 
     property bool changingDirection: false
     property real previousAngle: 0
+
+    function normalize360(angle) {
+        var semiNormalized = angle % 360
+        return semiNormalized >= 0 ? semiNormalized : semiNormalized + 360
+    }
 
     // Non-rotating stationary image on the background
     Image {
@@ -29,7 +35,7 @@ Item {
 
         RGBIcon {
             source: "../images/compass_ring_lines_day_?.png"
-            color: Theme.highlightColor
+            color: changingDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
             anchors.centerIn: parent
             width: 300; height: 354  // !!! Update whenever you regenerate the images !!!
             Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }

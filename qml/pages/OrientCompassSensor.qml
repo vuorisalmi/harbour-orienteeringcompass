@@ -45,19 +45,18 @@ Item {
     property real direction: 0.0   // the orienteering direction set by user, 0-359.99 degrees
     property bool rightDirection: false // (Math.abs(azimuth - direction) < 2.0 || Math.abs(azimuth - direction) > 358.0)
 
-    property real __normalDirection: normalize360(direction)
-    property real scaledAzimuth: azimuth / 360 * compassScaleVal  // scaleAngle(azimuth)
+    property real __normalDirection: normalize360(direction)  // 0-359.99 degrees for sure
+    property real scaledDirection: scaleAngle(direction)
+    property real scaledAzimuth: scaleAngle(azimuth)
     property real compassScaleVal: 360  // default, bound to settings later from outside
-    //property int __scale: 360 // TODO: bind to settings later
 
     function normalize360(angle) {
         var semiNormalized = angle % 360
         return semiNormalized >= 0 ? semiNormalized : semiNormalized + 360
     }
-//    function scaleAngle(angle360) {
-//        var realScale = 1 * compass.__scale  // TODO: simplify if scale remains a number
-//        return angle360 / 360 * realScale
-//    }
+    function scaleAngle(angle360) {
+        return angle360 / 360 * compassScaleVal
+    }
 
     Compass {
         id: compassSensor
