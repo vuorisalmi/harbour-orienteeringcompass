@@ -3,7 +3,9 @@ TODO / Orienteering Compass
 
 * Compass needle graphics: ambient highlight or always red?
 
-* Nightmode
+* Nightmode: graphics
+
+* Light sensor: could be off wheever mode is not "auto"
 
 * Graphics and highlights for azimuth & direction
 

@@ -39,4 +39,7 @@ Item {
     property string compassScaleStr: "360"  // Scale as string, set this
     property real compassScaleVal: 1 * compassScaleStr  // read-only
 
+    property string nightmodeSetting: "auto"
+    property bool sensorNigth: false  // Is it now night according to the light sensor
+    property bool nightmodeActive: (nightmodeSetting === "night") || ((nightmodeSetting === "auto") && sensorNigth)
 }

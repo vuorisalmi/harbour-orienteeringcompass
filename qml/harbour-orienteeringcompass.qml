@@ -32,6 +32,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import QtSensors 5.0
 import org.freedesktop.contextkit 1.0
 import "pages"
 
@@ -49,6 +50,22 @@ ApplicationWindow
         id: sharedSettings
     }
 
+    LightSensor {
+        id: lightSensor
+        active: true
+        property real _nightThreshold: 1
+        onReadingChanged: {
+            console.log("***Light reading: " + reading.illuminance);
+            sharedSettings.sensorNigth = (reading.illuminance <= _nightThreshold) && active;
+        }
+        onActiveChanged: {
+            console.log("***Light sensor: " + (active ? "START" : "STOP"));
+            if (!active) {
+                sharedSettings.sensorNigth = false; // Default to "day" when sensor is off
+            }
+        }
+    }
+
     // Main logic for the compass sensor on/off "state machine" is here:
     // decided by application being active (=foreground, full-screen) and
     // display being on/off.
@@ -57,6 +74,7 @@ ApplicationWindow
         console.log("*Application: " + (applicationActive ? "ACTIVE" : "Inactive"));
         if (applicationActive) {
             sharedCompass.active = true;
+            lightSensor.active = true;
         }
     }
 
@@ -70,9 +88,11 @@ ApplicationWindow
             if (value > 0) {
                 // Screen is OFF --> compass always off
                 sharedCompass.active = false;
+                lightSensor.active = false;
             } else if (value === 0 && applicationActive) {
                 // Screen is ON --> turn compass on if app is active, otherwise just leave it to the Cover to decide
                 sharedCompass.active = true;
+                lightSensor.active = true;
             }
         }
     }

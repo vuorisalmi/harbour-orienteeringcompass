@@ -58,6 +58,13 @@ Page {
 
         contentHeight: Screen.height // pageContent.height
 
+        Rectangle {
+            anchors.fill: parent
+            color: "black"
+            opacity: 0.7
+            visible: settings.nightmodeActive
+        }
+
         // The main components of the compass page from page bottom to top
 
         CompassCapsule {
@@ -122,7 +129,7 @@ Page {
         name: "nightmode"
         valueList: [ "auto", "day", "night" ]
         onCurrentValueChanged: {
-            //settings.compassScaleStr = currentValue
+            settings.nightmodeSetting = currentValue
         }
     }
 
