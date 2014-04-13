@@ -42,4 +42,5 @@ Item {
     property string nightmodeSetting: "auto"
     property bool sensorNigth: false  // Is it now night according to the light sensor
     property bool nightmodeActive: (nightmodeSetting === "night") || ((nightmodeSetting === "auto") && sensorNigth)
+    property string currentNightmodeStr: nightmodeActive ? "night" : "day"
 }

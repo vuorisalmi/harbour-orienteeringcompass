@@ -10,6 +10,7 @@ Item {
     property real direction: normalize360(- compassRing.rotation)  // In degrees, 0-359
     property real azimuth: 0.0     // In degrees, set (bind) from outside, the compass needle follows this
     property string compassScale   // Current scale as a string, e.g. "360"
+    property string currentNightmodeStr  // Curretly active nightmode as string, "night" or "day"
 
     property bool changingDirection: false
     property real previousAngle: 0
@@ -53,6 +54,7 @@ Item {
     Image {
         source: "../images/compass_needle_day_S.png"
         anchors.centerIn: parent
+        visible: (currentNightmodeStr === "day")
         rotation: - compassCapsule.azimuth
         Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
     }
@@ -63,7 +65,7 @@ Item {
 //        Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
 //    }
     RGBIcon {
-        source: "../images/compass_needle_day_N_?.png"
+        source: "../images/compass_needle_" + currentNightmodeStr +  "_N_?.png"
         color: Theme.highlightColor
         anchors.centerIn: parent
         rotation: - compassCapsule.azimuth

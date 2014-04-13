@@ -654,11 +654,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1607877"
-     inkscape:cx="188.84866"
-     inkscape:cy="301.25488"
+     inkscape:zoom="1.4872592"
+     inkscape:cx="254.47413"
+     inkscape:cy="295.53718"
      inkscape:document-units="px"
-     inkscape:current-layer="g4763"
+     inkscape:current-layer="g5284"
      showgrid="false"
      width="480px"
      inkscape:window-width="1388"
@@ -675,7 +675,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -881,7 +881,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_base_night.png"
        transform="matrix(1.5665136,0,0,1.1466596,-185.90773,-100.92304)"
-       d="m 386.78741,623.48322 a 114.90485,156.97771 0 1 1 -229.80969,0 114.90485,156.97771 0 1 1 229.80969,0 z"
+       d="m 386.78741,623.48322 c 0,86.69639 -51.44465,156.9777 -114.90484,156.9777 -63.4602,0 -114.90485,-70.28131 -114.90485,-156.9777 0,-86.6964 51.44465,-156.97771 114.90485,-156.97771 63.46019,0 114.90484,70.28131 114.90484,156.97771 z"
        sodipodi:ry="156.97771"
        sodipodi:rx="114.90485"
        sodipodi:cy="623.48322"
@@ -21443,10 +21443,64 @@
     </g>
   </g>
   <g
+     transform="translate(0,106)"
+     style="display:none"
+     inkscape:label="Needle night S"
+     id="g5158"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       id="g5160"
+       style="fill:#000000">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         id="path5162"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         id="path5164"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect5166"
+         width="17.786812"
+         height="175.99857"
+         x="261.40546"
+         y="367.97845"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         ry="0" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         id="rect5168"
+         width="17.353844"
+         height="175.99857"
+         x="261.46042"
+         y="543.97791"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         ry="0" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path5170"
+         sodipodi:cx="239.375"
+         sodipodi:cy="601.375"
+         sodipodi:rx="13.875"
+         sodipodi:ry="13.875"
+         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)" />
+    </g>
+  </g>
+  <g
      inkscape:groupmode="layer"
      id="g4763"
      inkscape:label="Needle day N black"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,106)">
     <g
        style="opacity:0"
@@ -21682,7 +21736,7 @@
          sodipodi:cy="601.375"
          sodipodi:rx="13.875"
          sodipodi:ry="13.875"
-         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         d="m 253.25,601.375 c 0,7.66295 -6.21205,13.875 -13.875,13.875 -7.66295,0 -13.875,-6.21205 -13.875,-13.875 0,-7.66295 6.21205,-13.875 13.875,-13.875 7.66295,0 13.875,6.21205 13.875,13.875 z"
          transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)" />
     </g>
   </g>
@@ -21737,7 +21791,7 @@
          style="fill:#0000ff;fill-opacity:1;stroke:none" />
       <path
          transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)"
-         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         d="m 253.25,601.375 c 0,7.66295 -6.21205,13.875 -13.875,13.875 -7.66295,0 -13.875,-6.21205 -13.875,-13.875 0,-7.66295 6.21205,-13.875 13.875,-13.875 7.66295,0 13.875,6.21205 13.875,13.875 z"
          sodipodi:ry="13.875"
          sodipodi:rx="13.875"
          sodipodi:cy="601.375"
@@ -21804,7 +21858,7 @@
          sodipodi:cy="601.375"
          sodipodi:rx="13.875"
          sodipodi:ry="13.875"
-         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         d="m 253.25,601.375 c 0,7.66295 -6.21205,13.875 -13.875,13.875 -7.66295,0 -13.875,-6.21205 -13.875,-13.875 0,-7.66295 6.21205,-13.875 13.875,-13.875 7.66295,0 13.875,6.21205 13.875,13.875 z"
          transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)" />
     </g>
   </g>
@@ -21859,7 +21913,7 @@
          style="fill:#ff00ff;fill-opacity:1;stroke:none" />
       <path
          transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)"
-         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         d="m 253.25,601.375 c 0,7.66295 -6.21205,13.875 -13.875,13.875 -7.66295,0 -13.875,-6.21205 -13.875,-13.875 0,-7.66295 6.21205,-13.875 13.875,-13.875 7.66295,0 13.875,6.21205 13.875,13.875 z"
          sodipodi:ry="13.875"
          sodipodi:rx="13.875"
          sodipodi:cy="601.375"
@@ -21926,9 +21980,497 @@
          sodipodi:cy="601.375"
          sodipodi:rx="13.875"
          sodipodi:ry="13.875"
+         d="m 253.25,601.375 c 0,7.66295 -6.21205,13.875 -13.875,13.875 -7.66295,0 -13.875,-6.21205 -13.875,-13.875 0,-7.66295 6.21205,-13.875 13.875,-13.875 7.66295,0 13.875,6.21205 13.875,13.875 z"
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)" />
+    </g>
+  </g>
+  <g
+     transform="translate(0,106)"
+     style="display:inline"
+     inkscape:label="Needle night N black"
+     id="g5284"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       id="g5286"
+       style="fill:#000000">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         id="path5288"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         id="path5290"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect5292"
+         width="17.786812"
+         height="175.99857"
+         x="261.40546"
+         y="367.97845"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         ry="0" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         id="rect5294"
+         width="17.353844"
+         height="175.99857"
+         x="261.46042"
+         y="543.97791"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         ry="0" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path5296"
+         sodipodi:cx="239.375"
+         sodipodi:cy="601.375"
+         sodipodi:rx="13.875"
+         sodipodi:ry="13.875"
          d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
          transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)" />
     </g>
+    <rect
+       y="378"
+       x="262"
+       height="76"
+       width="16"
+       id="rect5298"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g5172"
+     inkscape:label="Needle night N white"
+     style="display:none"
+     transform="translate(0,106)">
+    <g
+       style="fill:#000000"
+       id="g5174"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5176"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5178"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         ry="0"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         y="367.97845"
+         x="261.40546"
+         height="175.99857"
+         width="17.786812"
+         id="rect5180"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         ry="0"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         y="543.97791"
+         x="261.46042"
+         height="175.99857"
+         width="17.353844"
+         id="rect5182"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)"
+         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         sodipodi:ry="13.875"
+         sodipodi:rx="13.875"
+         sodipodi:cy="601.375"
+         sodipodi:cx="239.375"
+         id="path5184"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect5186"
+       width="16"
+       height="76"
+       x="262"
+       y="378" />
+  </g>
+  <g
+     transform="translate(0,106)"
+     style="display:none"
+     inkscape:label="Needle night N red"
+     id="g5188"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       id="g5190"
+       style="fill:#000000">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         id="path5192"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         id="path5194"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect5196"
+         width="17.786812"
+         height="175.99857"
+         x="261.40546"
+         y="367.97845"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         ry="0" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         id="rect5198"
+         width="17.353844"
+         height="175.99857"
+         x="261.46042"
+         y="543.97791"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         ry="0" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path5200"
+         sodipodi:cx="239.375"
+         sodipodi:cy="601.375"
+         sodipodi:rx="13.875"
+         sodipodi:ry="13.875"
+         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)" />
+    </g>
+    <rect
+       y="378"
+       x="262"
+       height="76"
+       width="16"
+       id="rect5202"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g5204"
+     inkscape:label="Needle night N green"
+     style="display:none"
+     transform="translate(0,106)">
+    <g
+       style="fill:#000000"
+       id="g5206"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5208"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5210"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         ry="0"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         y="367.97845"
+         x="261.40546"
+         height="175.99857"
+         width="17.786812"
+         id="rect5212"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         ry="0"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         y="543.97791"
+         x="261.46042"
+         height="175.99857"
+         width="17.353844"
+         id="rect5214"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)"
+         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         sodipodi:ry="13.875"
+         sodipodi:rx="13.875"
+         sodipodi:cy="601.375"
+         sodipodi:cx="239.375"
+         id="path5216"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect5218"
+       width="16"
+       height="76"
+       x="262"
+       y="378" />
+  </g>
+  <g
+     transform="translate(0,106)"
+     style="display:none"
+     inkscape:label="Needle night N blue"
+     id="g5220"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       id="g5222"
+       style="fill:#000000">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         id="path5224"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         id="path5226"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect5228"
+         width="17.786812"
+         height="175.99857"
+         x="261.40546"
+         y="367.97845"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         ry="0" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         id="rect5230"
+         width="17.353844"
+         height="175.99857"
+         x="261.46042"
+         y="543.97791"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         ry="0" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path5232"
+         sodipodi:cx="239.375"
+         sodipodi:cy="601.375"
+         sodipodi:rx="13.875"
+         sodipodi:ry="13.875"
+         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)" />
+    </g>
+    <rect
+       y="378"
+       x="262"
+       height="76"
+       width="16"
+       id="rect5234"
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g5236"
+     inkscape:label="Needle night N red+green"
+     style="display:none"
+     transform="translate(0,106)">
+    <g
+       style="fill:#000000"
+       id="g5238"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5240"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5242"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         ry="0"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         y="367.97845"
+         x="261.40546"
+         height="175.99857"
+         width="17.786812"
+         id="rect5244"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         ry="0"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         y="543.97791"
+         x="261.46042"
+         height="175.99857"
+         width="17.353844"
+         id="rect5246"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)"
+         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         sodipodi:ry="13.875"
+         sodipodi:rx="13.875"
+         sodipodi:cy="601.375"
+         sodipodi:cx="239.375"
+         id="path5248"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       style="fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect5250"
+       width="16"
+       height="76"
+       x="262"
+       y="378" />
+  </g>
+  <g
+     transform="translate(0,106)"
+     style="display:none"
+     inkscape:label="Needle night N red+green copy"
+     id="g5252"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       id="g5254"
+       style="fill:#000000">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         id="path5256"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         id="path5258"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect5260"
+         width="17.786812"
+         height="175.99857"
+         x="261.40546"
+         y="367.97845"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         ry="0" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+         id="rect5262"
+         width="17.353844"
+         height="175.99857"
+         x="261.46042"
+         y="543.97791"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         ry="0" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="path5264"
+         sodipodi:cx="239.375"
+         sodipodi:cy="601.375"
+         sodipodi:rx="13.875"
+         sodipodi:ry="13.875"
+         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)" />
+    </g>
+    <rect
+       y="378"
+       x="262"
+       height="76"
+       width="16"
+       id="rect5266"
+       style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g5268"
+     inkscape:label="Needle night N green+blue"
+     style="display:none"
+     transform="translate(0,106)">
+    <g
+       style="fill:#000000"
+       id="g5270"
+       inkscape:export-filename="/Users/vuorijus/src/sailfish/harbour-orienteeringcompass/qml/images/compass_needle_day_S.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5272"
+         d="M 261,368 270.00386,352 279,367.8605 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5274"
+         d="m 261,720 9.00385,16 L 279,720.13948 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         ry="0"
+         transform="matrix(1,8.2746471e-5,-6.5541098e-4,0.99999979,0,0)"
+         y="367.97845"
+         x="261.40546"
+         height="175.99857"
+         width="17.786812"
+         id="rect5276"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         ry="0"
+         transform="matrix(1,8.4810952e-5,-6.3945688e-4,0.9999998,0,0)"
+         y="543.97791"
+         x="261.46042"
+         height="175.99857"
+         width="17.353844"
+         id="rect5278"
+         style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="matrix(1.4414414,0,0,1.4414414,-75.045035,-322.84682)"
+         d="m 253.25,601.375 a 13.875,13.875 0 1 1 -27.75,0 13.875,13.875 0 1 1 27.75,0 z"
+         sodipodi:ry="13.875"
+         sodipodi:rx="13.875"
+         sodipodi:cy="601.375"
+         sodipodi:cx="239.375"
+         id="path5280"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect5282"
+       width="16"
+       height="76"
+       x="262"
+       y="378" />
   </g>
   <g
      style="display:none"

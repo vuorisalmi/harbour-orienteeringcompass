@@ -75,6 +75,7 @@ Page {
 
             azimuth: compass.azimuth
             compassScale: settings.compassScaleStr
+            currentNightmodeStr: settings.currentNightmodeStr
         }
 
         Label {
