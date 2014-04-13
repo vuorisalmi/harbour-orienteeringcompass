@@ -114,6 +114,19 @@ Page {
         }
     }
 
+    MultiToggleButton {
+        id: nightmodeButton
+        anchors.bottom: parent.bottom
+        anchors.right: parent.right
+        anchors.margins: Theme.paddingLarge
+        name: "nightmode"
+        valueList: [ "auto", "day", "night" ]
+        onCurrentValueChanged: {
+            //settings.compassScaleStr = currentValue
+        }
+    }
+
+
     // TEST
 //    Image {
 //        source: "../images/icon_scale_360_white.png"
