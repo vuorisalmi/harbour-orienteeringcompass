@@ -38,13 +38,22 @@ Page {
     property OrientCompassSensor compass
     property CompassSettings settings
 
-    // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
         anchors.fill: parent
 
         interactive: !compassCapsule.changingDirection  // Disable flickable when turning the compass ring
+        contentHeight: Screen.height
 
-        // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
+        // Almost black background for the nightmode.
+        // Needs to be here before and below the pulldownmenu so that the menu indicator
+        // stays properly visible.
+        Rectangle {
+            anchors.fill: parent
+            color: "black"
+            opacity: 0.7
+            visible: settings.nightmodeActive
+        }
+
         PullDownMenu {
             MenuItem {
                 text: "About Compass"
@@ -54,15 +63,6 @@ Page {
                 text: "Settings"
                 onClicked: pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
             }
-        }
-
-        contentHeight: Screen.height // pageContent.height
-
-        Rectangle {
-            anchors.fill: parent
-            color: "black"
-            opacity: 0.7
-            visible: settings.nightmodeActive
         }
 
         // The main components of the compass page from page bottom to top
