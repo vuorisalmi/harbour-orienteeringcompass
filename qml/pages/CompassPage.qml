@@ -74,6 +74,10 @@ Page {
             anchors.bottomMargin: 60
 
             azimuth: compass.azimuth
+
+            settings: page.settings
+
+            // TODO: remove
             compassScale: settings.compassScaleStr
             currentNightmodeStr: settings.currentNightmodeStr
         }

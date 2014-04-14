@@ -9,6 +9,10 @@ Item {
     // Normalizing the angle is a bit unnecessary here...
     property real direction: normalize360(- compassRing.rotation)  // In degrees, 0-359
     property real azimuth: 0.0     // In degrees, set (bind) from outside, the compass needle follows this
+
+    property CompassSettings settings
+
+    // TODO: replace with direct use of settings
     property string compassScale   // Current scale as a string, e.g. "360"
     property string currentNightmodeStr  // Curretly active nightmode as string, "night" or "day"
 
@@ -35,15 +39,16 @@ Item {
         height: compassCapsule.height
 
         RGBIcon {
-            source: "../images/compass_ring_lines_day_?.png"
+            source: "../images/compass_ring_lines_" + settings.currentNightmodeStr + "_?.png"
             color: changingDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
             anchors.centerIn: parent
-            width: 300; height: 354  // !!! Update whenever you regenerate the images !!!
+            width: settings.nightmodeActive ? 84 : 300;   // !!! Update whenever you regenerate the images !!!
+            height: settings.nightmodeActive ? 496 : 354  // !!! Update whenever you regenerate the images !!!
             Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
         }
         Image {
             id: ringImage
-            source: "../images/compass_ring_" + compassScale + "_day.png"
+            source: "../images/compass_ring_" + compassScale + "_" + settings.currentNightmodeStr + ".png"
             anchors.centerIn: parent
             Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
         }
@@ -54,7 +59,7 @@ Item {
     Image {
         source: "../images/compass_needle_day_S.png"
         anchors.centerIn: parent
-        visible: (currentNightmodeStr === "day")
+        visible: !settings.nightmodeActive // (currentNightmodeStr === "day")
         rotation: - compassCapsule.azimuth
         Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
     }
@@ -65,7 +70,8 @@ Item {
 //        Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
 //    }
     RGBIcon {
-        source: "../images/compass_needle_" + currentNightmodeStr +  "_N_?.png"
+        //source: "../images/compass_needle_" + currentNightmodeStr +  "_N_?.png"
+        source: "../images/compass_needle_" + settings.currentNightmodeStr +  "_N_?.png"
         color: Theme.highlightColor
         anchors.centerIn: parent
         rotation: - compassCapsule.azimuth
