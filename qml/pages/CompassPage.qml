@@ -87,7 +87,8 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.bottom: compassCapsule.top
             anchors.bottomMargin: 4
-            color: compassCapsule.changingDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
+            color: compassCapsule.changingDirection ? Theme.highlightColor :
+                                                      (settings.nightmodeActive ? "black": Theme.secondaryHighlightColor)
             font.pixelSize: Theme.fontSizeMedium
             text: compass.scaledDirection.toFixed(0)
         }
@@ -100,6 +101,7 @@ Page {
             anchors.bottom: directionLabel.top
             anchors.bottomMargin: 10
             color: compass.rightDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
+            visible: !settings.nightmodeActive
         }
 
         Label {
@@ -112,6 +114,22 @@ Page {
             text: compass.scaledAzimuth.toFixed(0)
         }
 
+        GlassItem {
+            id: azimuthHighlight
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: directionLine.top
+            anchors.bottomMargin: -46
+            color: Theme.highlightColor
+            visible: !settings.nightmodeActive && compass.rightDirection
+        }
+        GlassItem {
+            id: directionHighlight
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: directionLine.bottom
+            anchors.bottomMargin: -46
+            color: Theme.highlightColor
+            visible: !settings.nightmodeActive && compassCapsule.changingDirection
+        }
     }
 
     MultiToggleButton {
@@ -119,6 +137,8 @@ Page {
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.margins: Theme.paddingLarge
+        highlightHAlign: "left"
+        highlightVAlign: "bottom"
         name: "scale"
         valueList: [ "360", "400", "6000" ]
         onCurrentValueChanged: {
@@ -131,6 +151,8 @@ Page {
         anchors.bottom: parent.bottom
         anchors.right: parent.right
         anchors.margins: Theme.paddingLarge
+        highlightHAlign: "right"
+        highlightVAlign: "bottom"
         name: "nightmode"
         valueList: [ "auto", "day", "night" ]
         onCurrentValueChanged: {
@@ -138,6 +160,16 @@ Page {
         }
     }
 
+    // TEST, REMOVE
+//    MultiToggleButton {
+//        anchors.top: parent.top
+//        anchors.left: parent.left
+//        anchors.margins: Theme.paddingLarge
+//        highlightHAlign: "left"
+//        highlightVAlign: "top"
+//        name: "scale"
+//        valueList: [ "360", "400", "6000" ]
+//    }
 
     // TEST
 //    Image {
@@ -155,7 +187,10 @@ Page {
 //        width: 56; height: 56
 //    }
 //    Image {
-//        source: "../images/icon_scale_6000_white.png"
+//        source: "image://glass/usr/share/harbour-orienteeringcompass/qml/images/icon_scale_6000_white.png"
+//        sourceSize { width: 56; height: 56 }
+//        //sourceSize { width: parent.width; height: parent.height }
+
 //        anchors.top: parent.top
 //        anchors.left: parent.left
 //        anchors.margins: Theme.paddingLarge

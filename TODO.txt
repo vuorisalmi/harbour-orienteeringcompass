@@ -1,13 +1,9 @@
 TODO / Orienteering Compass
 ===========================
 
-* Compass needle graphics: ambient highlight or always red?
-
-* Nightmode: graphics
+* Nightmode: color of the buttons white --> highlightColor
 
 * Light sensor: could be off wheever mode is not "auto"
-
-* Graphics and highlights for azimuth & direction
 
 * Cover: compass needle and other graphics
 
@@ -20,6 +16,12 @@ TODO / Orienteering Compass
 * Calibration indicator on compass page
 
 * About dialog content
+
+* Azimuth & direction labels: bold when highlighted?
+
+* Compass needle graphics: ambient highlight or always red?
+
+* Buttons: takes selection even if released somewhere else (drag and release), bug?
 
 * Setting for compass default on/off when in background?
 
