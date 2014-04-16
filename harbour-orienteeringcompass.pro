@@ -27,5 +27,6 @@ OTHER_FILES += qml/harbour-orienteeringcompass.qml \
     TODO.txt \
     qml/pages/RGBIcon.qml \
     qml/pages/CompassSettings.qml \
-    qml/pages/CalibrationPage.qml
+    qml/pages/CalibrationPage.qml \
+    qml/pages/SwitchRow.qml
 

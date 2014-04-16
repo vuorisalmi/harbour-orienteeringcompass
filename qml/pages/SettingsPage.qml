@@ -60,54 +60,42 @@ Page {
                 text: "Compass scale"
             }
 
-            Row {
-                spacing: Theme.paddingSmall
-
-                Column {
-                    width: pageColumn.column3width
-                    Switch {
-                        width: pageColumn.column3width
-                        icon.source: "../images/icon_scale_360_white.png"
-                    }
-                    Label {
-                        text: qsTr("degree")
-                        width: pageColumn.column3width
-                        horizontalAlignment: Text.AlignHCenter
-                    }
+            SwitchRow {
+                id: scaleRow
+                contentWidth: pageColumn.width
+                name: "scale"
+                valueList: [ "360", "400", "6000" ]
+                labelList: [ "degree", "gradian", "mil" ]
+                //currentIndex: settings.compassScaleIndex
+                onCurrentValueChanged: {
+                    settings.compassScaleStr = currentValue
+                    //console.log("Scale: " + currentValue);
                 }
-                Column {
-                    width: pageColumn.column3width
-                    Switch {
-                        width: pageColumn.column3width
-                        icon.source: "../images/icon_scale_400_white.png"
-                    }
-                    Label {
-                        text: qsTr("gradian")
-                        width: pageColumn.column3width
-                        horizontalAlignment: Text.AlignHCenter
-                    }
-                }
-                Column {
-                    width: pageColumn.column3width
-                    Switch {
-                        width: pageColumn.column3width
-                        icon.source: "../images/icon_scale_6000_white.png"
-                    }
-                    Label {
-                        text: qsTr("mil")
-                        width: pageColumn.column3width
-                        horizontalAlignment: Text.AlignHCenter
-                    }
-                }
-
-
             }
-
 
             SectionHeader {
                 text: "Night mode"
             }
 
+            SwitchRow {
+                id: nightmodeRow
+                contentWidth: pageColumn.width
+                name: "nightmode"
+                valueList: [ "auto", "day", "night" ]
+                labelList: [ "auto", "day", "night" ]
+                //currentIndex: settings.nightmodeIndex
+                onCurrentValueChanged: {
+                    settings.nightmodeSetting = currentValue
+                }
+            }
+
         } // Column
+    }
+
+    onStatusChanged: {
+        if (page.status === PageStatus.Activating) {
+            nightmodeRow.currentIndex = settings.nightmodeIndex;
+            scaleRow.currentIndex = settings.compassScaleIndex;
+        }
     }
 }

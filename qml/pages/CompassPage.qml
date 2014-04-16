@@ -157,6 +157,7 @@ Page {
         highlightVAlign: "bottom"
         name: "scale"
         valueList: [ "360", "400", "6000" ]
+        currentIndex: settings.compassScaleIndex
         onCurrentValueChanged: {
             settings.compassScaleStr = currentValue
         }
@@ -171,6 +172,7 @@ Page {
         highlightVAlign: "bottom"
         name: "nightmode"
         valueList: [ "auto", "day", "night" ]
+        currentIndex: settings.nightmodeIndex
         onCurrentValueChanged: {
             settings.nightmodeSetting = currentValue
         }

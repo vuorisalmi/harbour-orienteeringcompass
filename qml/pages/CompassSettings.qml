@@ -35,12 +35,25 @@ import QtQuick 2.0
 Item {
     id: settings
 
-    // TODO: read default values somewhere?
+    // TODO: default values now hardcoded.
+
+    property variant scaleStrList: [ "360", "400", "6000" ]
+    property variant scaleLabelList: [ "degree", "gradian", "mil" ]
+
     property string compassScaleStr: "360"  // Scale as string, set this
     property real compassScaleVal: 1 * compassScaleStr  // read-only
+    property int compassScaleIndex: scaleStrList.indexOf(compassScaleStr)
+
+    property variant nightmodeStrList: [ "auto", "day", "night" ]
+    property variant nightmodeLabelList: [ "auto", "day", "night" ]
 
     property string nightmodeSetting: "auto"
     property bool sensorNigth: false  // Is it now night according to the light sensor
     property bool nightmodeActive: (nightmodeSetting === "night") || ((nightmodeSetting === "auto") && sensorNigth)
     property string currentNightmodeStr: nightmodeActive ? "night" : "day"
+    property int nightmodeIndex: nightmodeStrList.indexOf(nightmodeSetting)
+
+    onCompassScaleStrChanged: { console.log("Compass scale: " + compassScaleStr); }
+    onCompassScaleIndexChanged: { console.log("Compass scale index: " + compassScaleIndex); }
+
 }
