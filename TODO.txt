@@ -17,8 +17,6 @@ TODO / Orienteering Compass
 
 * About dialog content
 
-* Azimuth & direction labels: bold when highlighted?
-
 * Compass needle graphics: ambient highlight or always red?
 
 * Buttons: takes selection even if released somewhere else (drag and release), bug?

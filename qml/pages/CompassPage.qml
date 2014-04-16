@@ -99,6 +99,7 @@ Page {
             color: compassCapsule.changingDirection ? Theme.highlightColor :
                                                       (settings.nightmodeActive ? "black": Theme.secondaryHighlightColor)
             font.pixelSize: Theme.fontSizeMedium
+            font.bold: compassCapsule.changingDirection
             text: compass.scaledDirection.toFixed(0)
         }
 
@@ -120,6 +121,7 @@ Page {
             anchors.bottomMargin: 0  // There seems to be enough space
             color: compass.rightDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
             font.pixelSize: 100
+            font.bold: compass.rightDirection
             text: compass.scaledAzimuth.toFixed(0)
         }
 
