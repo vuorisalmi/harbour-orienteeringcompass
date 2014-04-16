@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="100"
+   id="svg3889"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="calibration_curve.svg"
+   inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/calibration_curve.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3891">
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter4060"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-0.25"
+       y="-0.25">
+      <feGaussianBlur
+         id="feGaussianBlur4062"
+         in="SourceAlpha"
+         stdDeviation="2"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix4064"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
+      <feOffset
+         id="feOffset4066"
+         in="bluralpha"
+         dx="0"
+         dy="2"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge4068">
+        <feMergeNode
+           id="feMergeNode4070"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode4072"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.5875"
+     inkscape:cx="121.67618"
+     inkscape:cy="32.164329"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1389"
+     inkscape:window-height="856"
+     inkscape:window-x="51"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3894">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="bg"
+     style="opacity:0.98999999;display:none">
+    <rect
+       style="fill:#803300;fill-opacity:1;stroke:none"
+       id="rect4647"
+       width="208.34396"
+       height="104.80333"
+       x="-1.2626907"
+       y="-0.76271653" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36218)"
+     style="display:inline">
+    <g
+       transform="matrix(0,-0.94293154,1.0605224,0,0,-10)"
+       style="font-size:140.23426818999999455px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;opacity:0.5"
+       id="text3928"
+       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/calibration_curve.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         d="m -1052.7309,96.413283 c 14.6076,11.686257 28.9588,24.772887 28.9589,40.549187 -10e-5,12.85484 -3.6521,23.51847 -10.9558,31.99094 -7.304,8.47249 -19.916,13.29428 -28.6558,12.70873 l -3.5542,-0.23813 c -8.1573,-0.54652 -18.4789,-3.70596 -26.0749,-11.59414 -7.5961,-7.88815 -11.3941,-18.55179 -11.3941,-31.99094 0,-16.94491 12.8038,-30.75909 27.4116,-41.861045 -13.4392,-10.517473 -27.5334,-23.743589 -27.5334,-40.688673 0,-12.854669 5.2345,-23.94053 11.9541,-31.828858 6.7195,-7.888012 17.432,-11.832097 26.781,-11.832267 l 2.6777,0 c 8.7646,1.7e-4 20.6458,3.944255 27.0733,11.832267 6.4273,7.888328 12.3192,18.497936 12.3193,31.352605 -10e-5,17.529393 -15.6959,31.736903 -28.5506,41.670068 m -12.8869,-6.297334 c 14.0234,-7.595923 28.2663,-20.180577 28.2663,-35.372734 0,-9.348815 -4.3094,-16.360522 -8.1074,-21.035141 -3.7981,-4.674323 -12.3925,-9.869072 -18.8198,-9.869227 -6.4275,1.55e-4 -16.2392,5.102855 -20.3294,10.069333 -4.0902,4.966773 -8.2778,12.308656 -8.2778,21.073162 0.5843,15.776466 13.5124,28.599245 27.5359,35.610859 m 1.3716,10.602985 c -15.1921,8.76471 -27.9336,22.20445 -28.5178,36.81213 0.5842,7.59606 3.1894,15.92847 7.2796,21.18722 4.0901,5.25881 13.6583,10.98384 20.6701,10.98382 7.596,2e-5 17.1886,-4.62644 21.2788,-9.59309 4.0901,-4.9666 6.6709,-14.68974 6.6709,-23.45441 -0.5844,-14.02337 -12.2221,-26.84616 -27.4141,-35.61087"
+         style="font-size:224.37483214999997472px;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Ume P Gothic;-inkscape-font-specification:Ume P Gothic Bold"
+         id="path4441"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccsssscssccccccsccccccccsscc" />
+    </g>
+    <g
+       id="g4640"
+       transform="translate(-62.37692,16.455589)"
+       inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/calibration_curve.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="307.82001"
+         inkscape:export-xdpi="307.82001"
+         inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_pictogram.png"
+         transform="matrix(0.8660254,-0.5,0.5,0.8660254,90.057143,966.14771)"
+         y="39.955029"
+         x="-10.640831"
+         height="29.371965"
+         width="50.563694"
+         id="rect3762"
+         style="fill:#ececec;fill-opacity:1;stroke:none;display:inline;filter:url(#filter4060)" />
+      <path
+         inkscape:export-ydpi="307.82001"
+         inkscape:export-xdpi="307.82001"
+         inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_pictogram.png"
+         inkscape:connector-curvature="0"
+         id="path3787"
+         d="m 123.49464,996.96021 c -7.1797,0 -13,5.82029 -13,12.99999 0,7.1797 5.8203,13 13,13 7.1797,0 13,-5.8203 13,-13 0,-7.1797 -5.8203,-12.99999 -13,-12.99999 z m 0,3.99999 c 4.97057,0 9,4.0294 9,9 0,4.9706 -4.02943,9 -9,9 -4.97056,0 -9,-4.0294 -9,-9 0,-4.9706 4.02944,-9 9,-9 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+      <rect
+         inkscape:export-ydpi="307.82001"
+         inkscape:export-xdpi="307.82001"
+         inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_pictogram.png"
+         transform="matrix(0.46215028,-0.88680162,0.88680162,0.46215028,0,0)"
+         y="575.16101"
+         x="-846.6145"
+         height="2.488945"
+         width="16.071348"
+         id="rect3905"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+      <rect
+         inkscape:export-ydpi="307.82001"
+         inkscape:export-xdpi="307.82001"
+         inkscape:export-filename="/home/jussi/Dropbox/orienteeringcompass/compass_pictogram.png"
+         transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+         y="935.12872"
+         x="-383.41263"
+         height="2.4254925"
+         width="13.377369"
+         id="rect3905-5"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+    </g>
+  </g>
+</svg>

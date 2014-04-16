@@ -41,6 +41,7 @@ Item {
     id: compass
 
     property alias active: compassSensor.active
+    property real calibration: 1.0 // Default to 100%
     property real azimuth: 0.0     // current azimuth in degrees
     property real direction: 0.0   // the orienteering direction set by user, 0-359.99 degrees
     property bool rightDirection: false // (Math.abs(azimuth - direction) < 2.0 || Math.abs(azimuth - direction) > 358.0)
@@ -65,7 +66,9 @@ Item {
             // TODO: normalize azimuth to 0-360??
             azimuth = reading.azimuth;
             rightDirection = (Math.abs(azimuth - __normalDirection) < 2.0 || Math.abs(azimuth - __normalDirection) > 358.0)
+            calibration = reading.calibrationLevel
             //console.log("Compass reading: " + reading.azimuth + " direction: " + compass.__normalDirection)
+            //console.log("Compass calibration: " + reading.calibrationLevel)
         }
         onActiveChanged: {
             // Debug purposes only

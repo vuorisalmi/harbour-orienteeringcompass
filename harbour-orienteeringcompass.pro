@@ -26,5 +26,6 @@ OTHER_FILES += qml/harbour-orienteeringcompass.qml \
     qml/pages/MultiToggleButton.qml \
     TODO.txt \
     qml/pages/RGBIcon.qml \
-    qml/pages/CompassSettings.qml
+    qml/pages/CompassSettings.qml \
+    qml/pages/CalibrationPage.qml
 

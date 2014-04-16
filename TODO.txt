@@ -3,7 +3,7 @@ TODO / Orienteering Compass
 
 * Nightmode: color of the buttons white --> highlightColor
 
-* Light sensor: could be off wheever mode is not "auto"
+* Light sensor: could be off whenever mode is not "auto"
 
 * Cover: compass needle and other graphics
 
@@ -11,7 +11,7 @@ TODO / Orienteering Compass
 
 * Settings saved
 
-* Calibration dialog
+* Test calibration!
 
 * Calibration indicator on compass page
 

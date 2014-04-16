@@ -54,6 +54,11 @@ Page {
             visible: settings.nightmodeActive
         }
 
+        CalibrationPage {
+            id: calibrationPage
+            calibration: compass.calibration
+        }
+
         PullDownMenu {
             MenuItem {
                 text: "About Compass"
@@ -62,6 +67,10 @@ Page {
             MenuItem {
                 text: "Settings"
                 onClicked: pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
+            }
+            MenuItem {
+                text: "Calibration"
+                onClicked: pageStack.push(calibrationPage)
             }
         }
 
