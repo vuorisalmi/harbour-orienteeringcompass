@@ -78,10 +78,6 @@ Page {
                 label: "Calibration level " + (value * 100).toFixed(0) + "%"
             }
 
-
-
-            // TODO...
-
         } // Column
     }
 }

@@ -35,25 +35,78 @@ import Sailfish.Silica 1.0
 Page {
     id: page
 
+    property CompassSettings settings
+
     SilicaFlickable {
         id: flickable
         anchors.fill: parent
-        contentHeight: column.height
+        contentHeight: pageColumn.height
 
         VerticalScrollDecorator { flickable: flickable }
 
         Column {
-            id: column
+            id: pageColumn
 
             anchors.horizontalCenter: parent.horizontalCenter
             width: parent.width - (2 * Theme.paddingLarge)
             spacing: Theme.paddingLarge
+            property int column3width: (pageColumn.width - (2 * Theme.paddingSmall)) / 3
 
             PageHeader {
                 title: "Settings"
             }
 
-            // TODO...
+            SectionHeader {
+                text: "Compass scale"
+            }
+
+            Row {
+                spacing: Theme.paddingSmall
+
+                Column {
+                    width: pageColumn.column3width
+                    Switch {
+                        width: pageColumn.column3width
+                        icon.source: "../images/icon_scale_360_white.png"
+                    }
+                    Label {
+                        text: qsTr("degree")
+                        width: pageColumn.column3width
+                        horizontalAlignment: Text.AlignHCenter
+                    }
+                }
+                Column {
+                    width: pageColumn.column3width
+                    Switch {
+                        width: pageColumn.column3width
+                        icon.source: "../images/icon_scale_400_white.png"
+                    }
+                    Label {
+                        text: qsTr("gradian")
+                        width: pageColumn.column3width
+                        horizontalAlignment: Text.AlignHCenter
+                    }
+                }
+                Column {
+                    width: pageColumn.column3width
+                    Switch {
+                        width: pageColumn.column3width
+                        icon.source: "../images/icon_scale_6000_white.png"
+                    }
+                    Label {
+                        text: qsTr("mil")
+                        width: pageColumn.column3width
+                        horizontalAlignment: Text.AlignHCenter
+                    }
+                }
+
+
+            }
+
+
+            SectionHeader {
+                text: "Night mode"
+            }
 
         } // Column
     }
