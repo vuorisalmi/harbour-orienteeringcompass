@@ -38,6 +38,11 @@ import "pages"
 
 ApplicationWindow
 {
+    id: appWindow
+
+    // Updated by the context property below (using contextkit)
+    property bool screenOn: true
+
     initialPage: Component { CompassPage { compass: sharedCompass; settings: sharedSettings } }
     cover: Component { CoverPage { compass: sharedCompass } }
 
@@ -52,7 +57,10 @@ ApplicationWindow
 
     LightSensor {
         id: lightSensor
-        active: true
+
+        // Currently, light sensor is not needed by cover page when app is in the background
+        active: appWindow.screenOn && appWindow.applicationActive && sharedSettings.nightmodeSetting === "auto"
+
         property real _nightThreshold: 1
         onReadingChanged: {
             console.log("***Light reading: " + reading.illuminance);
@@ -74,7 +82,6 @@ ApplicationWindow
         console.log("*Application: " + (applicationActive ? "ACTIVE" : "Inactive"));
         if (applicationActive) {
             sharedCompass.active = true;
-            lightSensor.active = true;
         }
     }
 
@@ -88,11 +95,13 @@ ApplicationWindow
             if (value > 0) {
                 // Screen is OFF --> compass always off
                 sharedCompass.active = false;
-                lightSensor.active = false;
-            } else if (value === 0 && applicationActive) {
-                // Screen is ON --> turn compass on if app is active, otherwise just leave it to the Cover to decide
-                sharedCompass.active = true;
-                lightSensor.active = true;
+                appWindow.screenOn = false;
+            } else {
+                if (applicationActive) {
+                    // Screen is ON --> turn compass on if app is active, otherwise just leave it to the Cover to decide
+                    sharedCompass.active = true;
+                }
+                appWindow.screenOn = true;
             }
         }
     }

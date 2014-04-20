@@ -3,8 +3,6 @@ TODO / Orienteering Compass
 
 * Nightmode: color of the buttons white --> highlightColor
 
-* Light sensor: could be off whenever mode is not "auto"
-
 * Settings saved
 
 * Test calibration!
@@ -22,6 +20,8 @@ TODO / Orienteering Compass
 ******************************
 Version 1.x
 ===========
+
+* Night mode for the cover page
 
 * Compass needle graphics: ambient highlight or always red?
 
