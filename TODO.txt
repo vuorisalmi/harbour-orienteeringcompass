@@ -17,14 +17,26 @@ TODO / Orienteering Compass
 
 * About dialog content
 
-* Compass needle graphics: ambient highlight or always red?
-
 * Buttons: takes selection even if released somewhere else (drag and release), bug?
 
 * Setting for compass default on/off when in background?
 
 * Vibra?
 
------
+******************************
+Version 1.x
+===========
+
+* Compass needle graphics: ambient highlight or always red?
+
+* Color settings?
+
+* Switch row: use highlight color when selected?
+
+* Localization?
+
+******************************
+Version 2.0
+===========
 
 * Declination

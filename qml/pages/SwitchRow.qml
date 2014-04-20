@@ -63,7 +63,8 @@ Row {
             text: labelList[0]
             width: __columnWidth
             horizontalAlignment: Text.AlignHCenter
-            color: switch0.checked ? Theme.highlightColor : Theme.primaryColor
+            font.bold: switch0.checked
+            //color: switch0.checked ? Theme.highlightColor : Theme.primaryColor
         }
     }
     Column {
@@ -82,7 +83,8 @@ Row {
             text: labelList[1]
             width: __columnWidth
             horizontalAlignment: Text.AlignHCenter
-            color: switch1.checked ? Theme.highlightColor : Theme.primaryColor
+            font.bold: switch1.checked
+            //color: switch1.checked ? Theme.highlightColor : Theme.primaryColor
         }
     }
     Column {
@@ -101,7 +103,8 @@ Row {
             text: labelList[2]
             width: __columnWidth
             horizontalAlignment: Text.AlignHCenter
-            color: switch2.checked ? Theme.highlightColor : Theme.primaryColor
+            font.bold: switch2.checked
+            //color: switch2.checked ? Theme.highlightColor : Theme.primaryColor
         }
     }
 

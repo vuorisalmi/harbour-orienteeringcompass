@@ -49,7 +49,7 @@ Page {
 
             anchors.horizontalCenter: parent.horizontalCenter
             width: parent.width - (2 * Theme.paddingLarge)
-            spacing: Theme.paddingLarge
+            spacing: Theme.paddingSmall
             property int column3width: (pageColumn.width - (2 * Theme.paddingSmall)) / 3
 
             PageHeader {
