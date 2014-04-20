@@ -146,37 +146,39 @@ Page {
             color: Theme.highlightColor
             visible: !settings.nightmodeActive && compassCapsule.changingDirection
         }
-    }
 
-    MultiToggleButton {
-        id: scaleButton
-        anchors.bottom: parent.bottom
-        anchors.left: parent.left
-        anchors.margins: Theme.paddingLarge
-        highlightHAlign: "left"
-        highlightVAlign: "bottom"
-        name: "scale"
-        valueList: [ "360", "400", "6000" ]
-        currentIndex: settings.compassScaleIndex // This binding will break but sets the initial value
-        onCurrentValueChanged: {
-            settings.compassScaleStr = currentValue
+        MultiToggleButton {
+            id: scaleButton
+            anchors.bottom: parent.bottom
+            anchors.left: parent.left
+            anchors.margins: Theme.paddingLarge
+            highlightHAlign: "left"
+            highlightVAlign: "bottom"
+            name: "scale"
+            valueList: [ "360", "400", "6000" ]
+            currentIndex: settings.compassScaleIndex // This binding will break but sets the initial value
+            onCurrentValueChanged: {
+                settings.compassScaleStr = currentValue
+            }
         }
-    }
 
-    MultiToggleButton {
-        id: nightmodeButton
-        anchors.bottom: parent.bottom
-        anchors.right: parent.right
-        anchors.margins: Theme.paddingLarge
-        highlightHAlign: "right"
-        highlightVAlign: "bottom"
-        name: "nightmode"
-        valueList: [ "auto", "day", "night" ]
-        currentIndex: settings.nightmodeIndex // This binding will break but sets the initial value
-        onCurrentValueChanged: {
-            settings.nightmodeSetting = currentValue
+        MultiToggleButton {
+            id: nightmodeButton
+            anchors.bottom: parent.bottom
+            anchors.right: parent.right
+            anchors.margins: Theme.paddingLarge
+            highlightHAlign: "right"
+            highlightVAlign: "bottom"
+            name: "nightmode"
+            valueList: [ "auto", "day", "night" ]
+            currentIndex: settings.nightmodeIndex // This binding will break but sets the initial value
+            onCurrentValueChanged: {
+                settings.nightmodeSetting = currentValue
+            }
         }
-    }
+
+    } // SilicaFlickable
+
 
     Component.onCompleted: {
         compass.direction = Qt.binding(function() { return compassCapsule.direction; })
