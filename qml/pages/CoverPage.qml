@@ -36,6 +36,36 @@ CoverBackground {
 
     property OrientCompassSensor compass
 
+    Item {
+        id: coverNeedle
+        width: parent.width * 1.2
+        height: width
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: Theme.paddingLarge
+        anchors.horizontalCenter: parent.horizontalCenter
+
+        rotation: - compass.azimuth
+
+        Rectangle {
+            id: needleN
+            height: parent.height * 0.5
+            width: height / 3
+            anchors.top: parent.top
+            anchors.horizontalCenter: parent.horizontalCenter
+            color: Theme.highlightColor
+            opacity: 0.3
+        }
+        Rectangle {
+            id: needleS
+            height: needleN.height
+            width: needleN.width
+            anchors.top: needleN.bottom
+            anchors.horizontalCenter: parent.horizontalCenter
+            color: "white"
+            opacity: 0.3
+        }
+    }
+
     Label {
         id: titleLabel
         text: compass.active ? compass.scaledAzimuth.toFixed(0) : "Compass<br>paused"

@@ -5,10 +5,6 @@ TODO / Orienteering Compass
 
 * Light sensor: could be off whenever mode is not "auto"
 
-* Cover: compass needle and other graphics
-
-* Settings (buttons, settings dialog, cover)
-
 * Settings saved
 
 * Test calibration!
