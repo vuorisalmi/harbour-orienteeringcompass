@@ -61,7 +61,9 @@ ApplicationWindow
         // Currently, light sensor is not needed by cover page when app is in the background
         active: appWindow.screenOn && appWindow.applicationActive && sharedSettings.nightmodeSetting === "auto"
 
-        property real _nightThreshold: 1
+        // Jolla light sensor gives quite easily a zero level in low light...
+        property real _nightThreshold: 0
+
         onReadingChanged: {
             console.log("***Light reading: " + reading.illuminance);
             sharedSettings.sensorNigth = (reading.illuminance <= _nightThreshold) && active;
