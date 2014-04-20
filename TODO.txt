@@ -1,9 +1,6 @@
 TODO / Orienteering Compass
 ===========================
 
-* Bug: scale seeting change on setting page not reflect in compass page scale icon!
-  After touching the icon at least once
-
 * Nightmode: color of the buttons white --> highlightColor
 
 * Light sensor: could be off whenever mode is not "auto"

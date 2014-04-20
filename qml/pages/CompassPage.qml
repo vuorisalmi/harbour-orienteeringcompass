@@ -157,7 +157,7 @@ Page {
         highlightVAlign: "bottom"
         name: "scale"
         valueList: [ "360", "400", "6000" ]
-        currentIndex: settings.compassScaleIndex
+        currentIndex: settings.compassScaleIndex // This binding will break but sets the initial value
         onCurrentValueChanged: {
             settings.compassScaleStr = currentValue
         }
@@ -172,48 +172,11 @@ Page {
         highlightVAlign: "bottom"
         name: "nightmode"
         valueList: [ "auto", "day", "night" ]
-        currentIndex: settings.nightmodeIndex
+        currentIndex: settings.nightmodeIndex // This binding will break but sets the initial value
         onCurrentValueChanged: {
             settings.nightmodeSetting = currentValue
         }
     }
-
-    // TEST, REMOVE
-//    MultiToggleButton {
-//        anchors.top: parent.top
-//        anchors.left: parent.left
-//        anchors.margins: Theme.paddingLarge
-//        highlightHAlign: "left"
-//        highlightVAlign: "top"
-//        name: "scale"
-//        valueList: [ "360", "400", "6000" ]
-//    }
-
-    // TEST
-//    Image {
-//        source: "../images/icon_scale_360_white.png"
-//        anchors.bottom: parent.bottom
-//        anchors.left: parent.left
-//        anchors.margins: Theme.paddingLarge
-//        width: 56; height: 56
-//    }
-//    Image {
-//        source: "../images/icon_scale_400_white.png"
-//        anchors.bottom: parent.bottom
-//        anchors.right: parent.right
-//        anchors.margins: Theme.paddingLarge
-//        width: 56; height: 56
-//    }
-//    Image {
-//        source: "image://glass/usr/share/harbour-orienteeringcompass/qml/images/icon_scale_6000_white.png"
-//        sourceSize { width: 56; height: 56 }
-//        //sourceSize { width: parent.width; height: parent.height }
-
-//        anchors.top: parent.top
-//        anchors.left: parent.left
-//        anchors.margins: Theme.paddingLarge
-//        width: 56; height: 56
-//    }
 
     Component.onCompleted: {
         compass.direction = Qt.binding(function() { return compassCapsule.direction; })
@@ -224,7 +187,11 @@ Page {
     onStatusChanged: {
         var statusText = "";
         if (page.status === PageStatus.Inactive) { statusText = "Inactive"; }
-        else if (page.status === PageStatus.Activating) { statusText = "Activating"; }
+        else if (page.status === PageStatus.Activating) {
+            statusText = "Activating";
+            scaleButton.currentIndex = settings.compassScaleIndex
+            nightmodeButton.currentIndex = settings.nightmodeIndex
+        }
         else if (page.status === PageStatus.Active) { statusText = "Active"; }
         else if (page.status === PageStatus.Deactivating) { statusText = "Deactivating"; }
         console.log("CompassPage status: " + statusText + "(" + page.status + ")");
