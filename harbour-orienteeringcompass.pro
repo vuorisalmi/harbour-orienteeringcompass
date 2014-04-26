@@ -10,7 +10,9 @@ TARGET = harbour-orienteeringcompass
 
 CONFIG += sailfishapp
 
-SOURCES += src/harbour-orienteeringcompass.cpp
+SOURCES += src/harbour-orienteeringcompass.cpp \
+    src/qsettingsqmlproxy.cpp \
+    src/qsettingsitemqmlproxy.cpp
 
 OTHER_FILES += qml/harbour-orienteeringcompass.qml \
     rpm/harbour-orienteeringcompass.spec \
@@ -29,4 +31,8 @@ OTHER_FILES += qml/harbour-orienteeringcompass.qml \
     qml/pages/CompassSettings.qml \
     qml/pages/CalibrationPage.qml \
     qml/pages/SwitchRow.qml
+
+HEADERS += \
+    src/qsettingsqmlproxy.h \
+    src/qsettingsitemqmlproxy.h
 

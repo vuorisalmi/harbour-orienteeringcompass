@@ -156,9 +156,13 @@ Page {
             highlightVAlign: "bottom"
             name: "scale"
             valueList: [ "360", "400", "6000" ]
-            currentIndex: settings.compassScaleIndex // This binding will break but sets the initial value
+            //currentIndex: settings.compassScaleIndex // This binding will break but sets the initial value
             onCurrentValueChanged: {
-                settings.compassScaleStr = currentValue
+                console.log("scaleButton: valueChanged...");
+                if (page.status === PageStatus.Active) {
+                    console.log("scaleButton: valueChanged: " + currentValue);
+                    settings.compassScaleStr = currentValue
+                }
             }
         }
 
@@ -171,9 +175,13 @@ Page {
             highlightVAlign: "bottom"
             name: "nightmode"
             valueList: [ "auto", "day", "night" ]
-            currentIndex: settings.nightmodeIndex // This binding will break but sets the initial value
+            //currentIndex: settings.nightmodeIndex // This binding will break but sets the initial value
             onCurrentValueChanged: {
-                settings.nightmodeSetting = currentValue
+                console.log("nightmodeButton: valueChanged...");
+                if (page.status === PageStatus.Active) {
+                    console.log("nightmodeButton: valueChanged: " + currentValue);
+                    settings.nightmodeSetting = currentValue
+                }
             }
         }
 
@@ -188,6 +196,7 @@ Page {
     // TODO: investigating the behavior of the page.status property
     onStatusChanged: {
         var statusText = "";
+        console.log("CompassPage status changing...");
         if (page.status === PageStatus.Inactive) { statusText = "Inactive"; }
         else if (page.status === PageStatus.Activating) {
             statusText = "Activating";

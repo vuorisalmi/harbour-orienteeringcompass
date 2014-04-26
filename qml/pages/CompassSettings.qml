@@ -30,6 +30,7 @@
 */
 
 import QtQuick 2.0
+import CompassExtras 1.0
 
 // Non-viaual item
 Item {
@@ -40,14 +41,14 @@ Item {
     property variant scaleStrList: [ "360", "400", "6000" ]
     property variant scaleLabelList: [ "degree", "gradian", "mil" ]
 
-    property string compassScaleStr: "360"  // Scale as string, set this
+    property string compassScaleStr: qSettingScale.value //: "360"  // Scale as string, set this
     property real compassScaleVal: 1 * compassScaleStr  // read-only
     property int compassScaleIndex: scaleStrList.indexOf(compassScaleStr)
 
     property variant nightmodeStrList: [ "auto", "day", "night" ]
     property variant nightmodeLabelList: [ "auto", "day", "night" ]
 
-    property string nightmodeSetting: "auto"
+    property string nightmodeSetting: qSettingNightmode.value //: "auto"
     property bool sensorNigth: false  // Is it now night according to the light sensor
     property bool nightmodeActive: (nightmodeSetting === "night") || ((nightmodeSetting === "auto") && sensorNigth)
     property string currentNightmodeStr: nightmodeActive ? "night" : "day"
@@ -56,4 +57,48 @@ Item {
     onCompassScaleStrChanged: { console.log("Compass scale: " + compassScaleStr); }
     onCompassScaleIndexChanged: { console.log("Compass scale index: " + compassScaleIndex); }
 
+//    QSettingsIF {
+//        id: qSettingsIF
+//    }
+
+    QSettingsItem {
+        id: qSettingScale
+        key: "compassScale"
+        defaultValue: "360"
+    }
+    QSettingsItem {
+        id: qSettingNightmode
+        key: "nightmode"
+        defaultValue: "auto"
+    }
+
+    property string testStr
+
+    Component.onCompleted: {
+        console.log("CompassSettings: Component.onCompleted");
+
+        //var testStr = qSettingsIF.value("Scale", "360");
+        //testStr = qSettingsIF.value("Scale", "360");
+        //console.log("Settings: scale " + testStr);
+
+//        console.log("Settings: nightmode key: " + qSettingNightmode.key);
+//        console.log("Settings: nightmode default: " + qSettingNightmode.defaultValue);
+//        console.log("Settings: nightmode value: " + qSettingNightmode.value);
+
+//        console.log("Settings: scale key: " + qSettingScale.key);
+//        console.log("Settings: scale default: " + qSettingScale.defaultValue);
+//        console.log("Settings: scale value: " + qSettingScale.value);
+
+        compassScaleStr = qSettingScale.value
+        nightmodeSetting = qSettingNightmode.value
+        console.log("Settings: scale value: " + compassScaleStr);
+        console.log("Settings: nightmode value: " + nightmodeSetting);
+
+    }
+    Component.onDestruction: {
+        console.log("Settings: writing settings...");
+        //qSettingsIF.setValue("Scale", compassScaleStr)
+        qSettingScale.value = compassScaleStr;
+        qSettingNightmode.value = nightmodeSetting;
+    }
 }

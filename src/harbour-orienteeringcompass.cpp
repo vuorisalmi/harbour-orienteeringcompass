@@ -32,7 +32,10 @@
 #include <QtQuick>
 #endif
 
+#include <QQmlEngine>
 #include <sailfishapp.h>
+#include "qsettingsqmlproxy.h"
+#include "qsettingsitemqmlproxy.h"
 
 
 int main(int argc, char *argv[])
@@ -45,6 +48,9 @@ int main(int argc, char *argv[])
     //   - SailfishApp::pathTo(QString) to get a QUrl to a resource file
     //
     // To display the view, call "show()" (will show fullscreen on device).
+
+    qmlRegisterType<QSettingsQmlProxy>("CompassExtras", 1, 0, "QSettingsIF");
+    qmlRegisterType<QSettingsItemQmlProxy>("CompassExtras", 1, 0, "QSettingsItem");
 
     return SailfishApp::main(argc, argv);
 }

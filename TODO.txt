@@ -1,6 +1,8 @@
 TODO / Orienteering Compass
 ===========================
 
+* Settings: value change signal for "value"
+
 * Nightmode: color of the buttons white --> highlightColor
 
 * Settings saved
@@ -16,6 +18,21 @@ TODO / Orienteering Compass
 * Setting for compass default on/off when in background?
 
 * Vibra?
+
+---
+Publish
+
+* Source code license
+
+* Publish to github
+
+* rpm package stuff
+
+* v1.0.0: rpm + about dialog
+
+* Take screenshots
+
+* Make banner picture
 
 ******************************
 Version 1.x
