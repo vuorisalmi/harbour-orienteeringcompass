@@ -67,8 +67,8 @@ Item {
             azimuth = reading.azimuth;
             rightDirection = (Math.abs(azimuth - __normalDirection) < 2.0 || Math.abs(azimuth - __normalDirection) > 358.0)
             calibration = reading.calibrationLevel
-            //console.log("Compass reading: " + reading.azimuth + " direction: " + compass.__normalDirection)
-            //console.log("Compass calibration: " + reading.calibrationLevel)
+//            console.log("Compass azimuth: " + reading.azimuth + " direction: " + compass.__normalDirection +
+//                        " calibration " + reading.calibrationLevel)
         }
         onActiveChanged: {
             // Debug purposes only

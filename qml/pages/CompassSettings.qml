@@ -52,6 +52,8 @@ Item {
     property string currentNightmodeStr: nightmodeActive ? "night" : "day"
     property int nightmodeIndex: nightmodeStrList.indexOf(nightmodeSetting)
 
+    property bool calibrationTest: qSettingCalibrationTest.value
+
     //onCompassScaleStrChanged: { console.log("Compass scale: " + compassScaleStr); }
     //onCompassScaleIndexChanged: { console.log("Compass scale index: " + compassScaleIndex); }
 
@@ -64,6 +66,11 @@ Item {
         id: qSettingNightmode
         key: "nightmode"
         defaultValue: "auto"
+    }
+    QSettingsItem {
+        id: qSettingCalibrationTest
+        key: "calibrationTest"
+        defaultValue: false
     }
 
     Component.onCompleted: {

@@ -61,7 +61,7 @@ Page {
 
         CalibrationPage {
             id: calibrationPage
-            calibration: compass.calibration
+            calibration: settings.calibrationTest ? (compass.direction / 360) : compass.calibration
         }
 
         PullDownMenu {
