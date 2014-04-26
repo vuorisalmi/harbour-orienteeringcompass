@@ -36,19 +36,17 @@ import CompassExtras 1.0
 Item {
     id: settings
 
-    // TODO: default values now hardcoded.
-
     property variant scaleStrList: [ "360", "400", "6000" ]
     property variant scaleLabelList: [ "degree", "gradian", "mil" ]
 
-    property string compassScaleStr: qSettingScale.value //: "360"  // Scale as string, set this
+    property string compassScaleStr: qSettingScale.value  // Read in the initial settings via QSettings
     property real compassScaleVal: 1 * compassScaleStr  // read-only
     property int compassScaleIndex: scaleStrList.indexOf(compassScaleStr)
 
     property variant nightmodeStrList: [ "auto", "day", "night" ]
     property variant nightmodeLabelList: [ "auto", "day", "night" ]
 
-    property string nightmodeSetting: qSettingNightmode.value //: "auto"
+    property string nightmodeSetting: qSettingNightmode.value // Read in the initial settings via QSettings
     property bool sensorNigth: false  // Is it now night according to the light sensor
     property bool nightmodeActive: (nightmodeSetting === "night") || ((nightmodeSetting === "auto") && sensorNigth)
     property string currentNightmodeStr: nightmodeActive ? "night" : "day"
@@ -68,13 +66,11 @@ Item {
         defaultValue: "auto"
     }
 
-    property string testStr
-
     Component.onCompleted: {
-        compassScaleStr = qSettingScale.value
-        nightmodeSetting = qSettingNightmode.value
-        console.log("CompassSettings: Component.onCompleted: scale value: " + compassScaleStr);
-        console.log("CompassSettings: Component.onCompleted: nightmode value: " + nightmodeSetting);
+//        compassScaleStr = qSettingScale.value
+//        nightmodeSetting = qSettingNightmode.value
+//        console.log("CompassSettings: Component.onCompleted: scale value: " + compassScaleStr);
+//        console.log("CompassSettings: Component.onCompleted: nightmode value: " + nightmodeSetting);
 
     }
     Component.onDestruction: {

@@ -10,7 +10,7 @@ class QSettingsItemQmlProxy : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(QString key READ key WRITE setKey)
-    Q_PROPERTY(QVariant value READ value WRITE setValue)
+    Q_PROPERTY(QVariant value READ value WRITE setValue NOTIFY valueChanged)
     Q_PROPERTY(QVariant defaultValue READ defaultValue WRITE setDefaultValue)
 
 public:
@@ -25,6 +25,7 @@ public:
     void setDefaultValue(const QVariant &newValue);
 
 signals:
+    void valueChanged();
 
 public slots:
 

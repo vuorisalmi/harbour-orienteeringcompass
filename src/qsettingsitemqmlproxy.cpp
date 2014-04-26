@@ -39,10 +39,13 @@ const QVariant & QSettingsItemQmlProxy::value()
 void QSettingsItemQmlProxy::setValue(const QVariant &newValue)
 {
     if (_qsettings) {
-        _qsettings->setValue(_key, newValue);
-        qDebug() << "writing key/value " << _key << "/" << newValue << "\n";
+        if (_value != newValue) {
+            _qsettings->setValue(_key, newValue);
+            qDebug() << "writing key/value " << _key << "/" << newValue << "\n";
+            _value = newValue;
+            emit valueChanged();
+        }
     }
-    _value = newValue;
 }
 
 const QVariant & QSettingsItemQmlProxy::defaultValue()
