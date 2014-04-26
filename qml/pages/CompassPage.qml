@@ -156,11 +156,13 @@ Page {
             highlightVAlign: "bottom"
             name: "scale"
             valueList: [ "360", "400", "6000" ]
-            //currentIndex: settings.compassScaleIndex // This binding will break but sets the initial value
+            // NOTE: currentIndex set by page.onStatusChanged below
             onCurrentValueChanged: {
-                console.log("scaleButton: valueChanged...");
+                // Change the setting only when the page is active i.e. the change is truly
+                // trigged by the finger of the user. This filters out one extra change event
+                // in the very beginning that would othervise mess up the setting value.
                 if (page.status === PageStatus.Active) {
-                    console.log("scaleButton: valueChanged: " + currentValue);
+                    //console.log("scaleButton: valueChanged: " + currentValue);
                     settings.compassScaleStr = currentValue
                 }
             }
@@ -175,11 +177,13 @@ Page {
             highlightVAlign: "bottom"
             name: "nightmode"
             valueList: [ "auto", "day", "night" ]
-            //currentIndex: settings.nightmodeIndex // This binding will break but sets the initial value
+            // NOTE: currentIndex set by page.onStatusChanged below
             onCurrentValueChanged: {
-                console.log("nightmodeButton: valueChanged...");
+                // Change the setting only when the page is active i.e. the change is truly
+                // trigged by the finger of the user. This filters out one extra change event
+                // in the very beginning that would othervise mess up the setting value.
                 if (page.status === PageStatus.Active) {
-                    console.log("nightmodeButton: valueChanged: " + currentValue);
+                    //console.log("nightmodeButton: valueChanged: " + currentValue);
                     settings.nightmodeSetting = currentValue
                 }
             }
@@ -196,7 +200,6 @@ Page {
     // TODO: investigating the behavior of the page.status property
     onStatusChanged: {
         var statusText = "";
-        console.log("CompassPage status changing...");
         if (page.status === PageStatus.Inactive) { statusText = "Inactive"; }
         else if (page.status === PageStatus.Activating) {
             statusText = "Activating";

@@ -1,11 +1,9 @@
 TODO / Orienteering Compass
 ===========================
 
-* Settings: value change signal for "value"
+* Settings: value change signal for "value" --> use to set the initial value
 
 * Nightmode: color of the buttons white --> highlightColor
-
-* Settings saved
 
 * Test calibration!
 
@@ -24,7 +22,7 @@ Publish
 
 * Source code license
 
-* Publish to github
+* Publish to github, link in about page
 
 * rpm package stuff
 

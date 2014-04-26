@@ -54,12 +54,8 @@ Item {
     property string currentNightmodeStr: nightmodeActive ? "night" : "day"
     property int nightmodeIndex: nightmodeStrList.indexOf(nightmodeSetting)
 
-    onCompassScaleStrChanged: { console.log("Compass scale: " + compassScaleStr); }
-    onCompassScaleIndexChanged: { console.log("Compass scale index: " + compassScaleIndex); }
-
-//    QSettingsIF {
-//        id: qSettingsIF
-//    }
+    //onCompassScaleStrChanged: { console.log("Compass scale: " + compassScaleStr); }
+    //onCompassScaleIndexChanged: { console.log("Compass scale index: " + compassScaleIndex); }
 
     QSettingsItem {
         id: qSettingScale
@@ -75,29 +71,14 @@ Item {
     property string testStr
 
     Component.onCompleted: {
-        console.log("CompassSettings: Component.onCompleted");
-
-        //var testStr = qSettingsIF.value("Scale", "360");
-        //testStr = qSettingsIF.value("Scale", "360");
-        //console.log("Settings: scale " + testStr);
-
-//        console.log("Settings: nightmode key: " + qSettingNightmode.key);
-//        console.log("Settings: nightmode default: " + qSettingNightmode.defaultValue);
-//        console.log("Settings: nightmode value: " + qSettingNightmode.value);
-
-//        console.log("Settings: scale key: " + qSettingScale.key);
-//        console.log("Settings: scale default: " + qSettingScale.defaultValue);
-//        console.log("Settings: scale value: " + qSettingScale.value);
-
         compassScaleStr = qSettingScale.value
         nightmodeSetting = qSettingNightmode.value
-        console.log("Settings: scale value: " + compassScaleStr);
-        console.log("Settings: nightmode value: " + nightmodeSetting);
+        console.log("CompassSettings: Component.onCompleted: scale value: " + compassScaleStr);
+        console.log("CompassSettings: Component.onCompleted: nightmode value: " + nightmodeSetting);
 
     }
     Component.onDestruction: {
         console.log("Settings: writing settings...");
-        //qSettingsIF.setValue("Scale", compassScaleStr)
         qSettingScale.value = compassScaleStr;
         qSettingNightmode.value = nightmodeSetting;
     }

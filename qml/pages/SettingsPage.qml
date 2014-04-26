@@ -66,11 +66,10 @@ Page {
                 name: "scale"
                 valueList: [ "360", "400", "6000" ]
                 labelList: [ "degree", "gradian", "mil" ]
-                //currentIndex: settings.compassScaleIndex
+                // NOTE: currentIndex set by page.onStatusChanged below
                 onCurrentValueChanged: {
-                    console.log("SettingsPage SwitchRow valueChanged...");
                     if (page.status === PageStatus.Active) {
-                        console.log("SettingsPage SwitchRow valueChanged: " + currentValue);
+                        //console.log("SettingsPage SwitchRow valueChanged: " + currentValue);
                         settings.compassScaleStr = currentValue
                     }
                 }
@@ -86,11 +85,10 @@ Page {
                 name: "nightmode"
                 valueList: [ "auto", "day", "night" ]
                 labelList: [ "auto", "day", "night" ]
-                //currentIndex: settings.nightmodeIndex
+                // NOTE: currentIndex set by page.onStatusChanged below
                 onCurrentValueChanged: {
-                    console.log("SettingsPage SwitchRow valueChanged...");
                     if (page.status === PageStatus.Active) {
-                        console.log("SettingsPage SwitchRow valueChanged: " + currentValue);
+                        //console.log("SettingsPage SwitchRow valueChanged: " + currentValue);
                         settings.nightmodeSetting = currentValue
                     }
                 }
@@ -101,7 +99,6 @@ Page {
 
     onStatusChanged: {
         if (page.status === PageStatus.Activating) {
-            console.log("SettingsPage activating...");
             nightmodeRow.currentIndex = settings.nightmodeIndex;
             scaleRow.currentIndex = settings.compassScaleIndex;
         }
