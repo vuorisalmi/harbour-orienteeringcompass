@@ -1,5 +1,6 @@
 #include <QDebug>
 #include <QSettings>
+#include <QMetaType>
 #include "qsettingsitemqmlproxy.h"
 
 QSettingsItemQmlProxy::QSettingsItemQmlProxy(QObject *parent) :
@@ -27,11 +28,18 @@ void QSettingsItemQmlProxy::setKey(const QString &newKey)
     _key = newKey;
 }
 
+// TODO: currenly only correcly returns QVariant types: QVariant(QString), QVariant(bool).
+// Add support for other types (like int, double) when needed.
+// By default the returned value is of type QVariant(QString).
 const QVariant & QSettingsItemQmlProxy::value()
 {
     if (_qsettings) {
         _value = _qsettings->value(_key, _defaultValue);
-        qDebug() << "reading key/value " << _key << "/" << _value << "\n";
+        //qDebug() << "type of default value: " << _defaultValue.typeName();
+        if (_defaultValue.type() == QMetaType::Bool) {
+            _value = QVariant(_value.toBool());
+        }
+        qDebug() << "reading key/value " << _key << "/" << _value;
     }
     return _value;
 }
@@ -41,7 +49,7 @@ void QSettingsItemQmlProxy::setValue(const QVariant &newValue)
     if (_qsettings) {
         if (_value != newValue) {
             _qsettings->setValue(_key, newValue);
-            qDebug() << "writing key/value " << _key << "/" << newValue << "\n";
+            qDebug() << "writing key/value " << _key << "/" << newValue;
             _value = newValue;
             emit valueChanged();
         }

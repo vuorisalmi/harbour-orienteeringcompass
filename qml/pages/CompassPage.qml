@@ -38,6 +38,8 @@ Page {
     property OrientCompassSensor compass
     property CompassSettings settings
 
+    property real __calibrationValue: settings.calibrationTest ? (compass.direction / 360) : compass.calibration
+
     SilicaFlickable {
         anchors.fill: parent
 
@@ -61,7 +63,7 @@ Page {
 
         CalibrationPage {
             id: calibrationPage
-            calibration: settings.calibrationTest ? (compass.direction / 360) : compass.calibration
+            calibration: __calibrationValue
         }
 
         PullDownMenu {
@@ -186,6 +188,37 @@ Page {
                     //console.log("nightmodeButton: valueChanged: " + currentValue);
                     settings.nightmodeSetting = currentValue
                 }
+            }
+        }
+
+        // Calibration indicator, shown only when calibration is needed
+        MouseArea {
+            id: calibrationIndicator
+            width: 200
+            height: 64
+            anchors.horizontalCenter: compassCapsule.horizontalCenter
+            anchors.bottom: compassCapsule.bottom
+            anchors.bottomMargin: 150
+            visible: !settings.nightmodeActive && __calibrationValue < 0.98
+
+            onClicked: {
+                pageStack.push(calibrationPage);
+            }
+
+            Label {
+                id: labelShadow
+                anchors.centerIn: parent
+                text: qsTr("Calibration needed")
+                color: "black"
+                font.bold: true
+            }
+            Label {
+                text: labelShadow.text
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.top: labelShadow.top
+                anchors.topMargin: 2
+                color: Theme.secondaryHighlightColor
+                font.bold: true
             }
         }
 

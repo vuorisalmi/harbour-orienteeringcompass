@@ -76,9 +76,10 @@ Item {
     Component.onCompleted: {
 //        compassScaleStr = qSettingScale.value
 //        nightmodeSetting = qSettingNightmode.value
+//        calibrationTest = qSettingCalibrationTest.value;
 //        console.log("CompassSettings: Component.onCompleted: scale value: " + compassScaleStr);
 //        console.log("CompassSettings: Component.onCompleted: nightmode value: " + nightmodeSetting);
-
+//        console.log("CompassSettings: Component.onCompleted: calibrationTest: " + qSettingCalibrationTest.value + " " + calibrationTest);
     }
     Component.onDestruction: {
         console.log("Settings: writing settings...");
