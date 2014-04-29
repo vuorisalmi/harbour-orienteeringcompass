@@ -3,10 +3,6 @@ TODO / Orienteering Compass
 
 * Nightmode: color of the buttons white --> highlightColor
 
-* Test calibration!
-
-* Calibration indicator on compass page
-
 * About dialog content
 
 * Buttons: takes selection even if released somewhere else (drag and release), bug?
@@ -33,6 +29,8 @@ Publish
 ******************************
 Version 1.x
 ===========
+
+* Calibration value, seems to be always 1.0?
 
 * Night mode for the cover page
 

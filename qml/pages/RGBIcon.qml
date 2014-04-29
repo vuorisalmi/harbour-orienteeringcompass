@@ -1,6 +1,8 @@
 /*
-  Copyright (c) 2014, Jussi Vuorisalmi <jussi.vuorisalmi@iki.fi>
+  Copyright (c) 2014 Jussi Vuorisalmi <jussi.vuorisalmi@iki.fi>
   All rights reserved.
+
+  This file is originally part of the ambienticon package.
 
   You may use this file under the terms of BSD license as follows:
 
