@@ -1,6 +1,6 @@
 Name: harbour-orienteeringcompass
 Summary: Orienteering Compass
-Version: 0.1.0
+Version: 0.9.0
 Release: 1
 Group: Qt/Qt
 URL: http://example.org/
@@ -27,3 +27,4 @@ Files:
 - '%{_datadir}/applications/%{name}.desktop'
 - '%{_datadir}/%{name}/qml'
 - '%{_bindir}'
+PkgBR: []

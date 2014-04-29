@@ -42,14 +42,14 @@ Page {
                 title: "Orienteering Compass"
             }
             Label {
-                text: "Version 0.1.0"
-                color: Theme.highlightColor
+                text: "Version 0.9.0"
+                color: Theme.primaryColor
                 wrapMode: TextEdit.WordWrap
                 width: parent.width
             }
             Label {
-                text: "By Jussi Vuorisalmi, <a href=\"mailto:jussi.vuorisalmi@iki.fi?subject=About%20Orienteering%20Compass\">jussi.vuorisalmi@iki.fi</a>"
-                color: Theme.highlightColor
+                text: "By Jussi Vuorisalmi, <a href=\"mailto:jussi.vuorisalmi@iki.fi?subject=About%20Orienteering%20Compass%20SailfishOS\">jussi.vuorisalmi@iki.fi</a>"
+                color: Theme.primaryColor
                 linkColor: "#ffffff"
                 wrapMode: TextEdit.WordWrap
                 width: parent.width
@@ -57,8 +57,16 @@ Page {
                     Qt.openUrlExternally(link)
                 }
             }
-
-            // TODO...
+            Label {
+                text: "Source code available in <a href=\"https://github.com/vuorisalmi/harbour-orienteeringcompass\">https://github.com/vuorisalmi/harbour-orienteeringcompass</a> under the terms of GPLv3 license."
+                color: Theme.primaryColor
+                linkColor: "#ffffff"
+                wrapMode: TextEdit.WordWrap
+                width: parent.width
+                onLinkActivated: {
+                    Qt.openUrlExternally(link)
+                }
+            }
 
         } // Column
     }
