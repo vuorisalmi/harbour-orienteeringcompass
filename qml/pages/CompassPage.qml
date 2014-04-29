@@ -1,5 +1,6 @@
 /*
-  Copyright (c) 2014 Jussi Vuorisalmi <jussi.vuorisalmi@iki.fi>
+  Copyright (C) 2014 Jussi Vuorisalmi <jussi.vuorisalmi@iki.fi>
+  All rights reserved.
 
   This file is part of the harbour-orienteeringcompass package.
 
