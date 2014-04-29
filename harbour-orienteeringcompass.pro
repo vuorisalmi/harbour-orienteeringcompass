@@ -30,7 +30,8 @@ OTHER_FILES += qml/harbour-orienteeringcompass.qml \
     qml/pages/CompassSettings.qml \
     qml/pages/CalibrationPage.qml \
     qml/pages/SwitchRow.qml \
-    COPYING.txt
+    COPYING.txt \
+    README.txt
 
 HEADERS += \
     src/qsettingsitemqmlproxy.h
