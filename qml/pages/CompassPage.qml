@@ -117,7 +117,7 @@ Page {
             anchors.bottomMargin: 0  // There seems to be enough space
             color: compass.rightDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
             font.pixelSize: 100
-            font.bold: compass.rightDirection
+            font.bold: false //compass.rightDirection
             text: compass.scaledAzimuth.toFixed(0)
         }
 
