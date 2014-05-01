@@ -27,7 +27,7 @@ Item {
     height: 500
 
     // Normalizing the angle is a bit unnecessary here...
-    property real direction: normalize360(- compassRing.rotation)  // In degrees, 0-359
+    property real direction: normalize360(- __ringRotation)  // In degrees, 0-359
     property real azimuth: 0.0     // In degrees, set (bind) from outside, the compass needle follows this
 
     property CompassSettings settings
@@ -38,6 +38,7 @@ Item {
 
     property bool changingDirection: false
     property real previousAngle: 0
+    property real __ringRotation: 0
 
     function normalize360(angle) {
         var semiNormalized = angle % 360
@@ -51,46 +52,36 @@ Item {
         anchors.centerIn: parent
     }
 
-    // The turnable ring (or "housing") of the compass
-    Item {
-        id: compassRing
+    // The turnable ring (or "housing") of the compass.
+    // Consists of two overlaid images, first one with static colors and the
+    // other on the top showed in the current ambient highlight color.
+    Image {
+        source: "../images/compass_ring_" + compassScale + "_" + settings.currentNightmodeStr + ".png"
         anchors.centerIn: parent
-        width: compassCapsule.width
-        height: compassCapsule.height
-
-        RGBIcon {
-            source: "../images/compass_ring_lines_" + settings.currentNightmodeStr + "_?.png"
-            color: changingDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
-            anchors.centerIn: parent
-            width: settings.nightmodeActive ? 84 : 300;   // !!! Update whenever you regenerate the images !!!
-            height: settings.nightmodeActive ? 496 : 354  // !!! Update whenever you regenerate the images !!!
-            Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
-        }
-        Image {
-            id: ringImage
-            source: "../images/compass_ring_" + compassScale + "_" + settings.currentNightmodeStr + ".png"
-            anchors.centerIn: parent
-            Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
-        }
+        rotation: __ringRotation
+        Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
+    }
+    RGBIcon {
+        source: "../images/compass_ring_lines_" + settings.currentNightmodeStr + "_?.png"
+        color: changingDirection ? Theme.highlightColor : Theme.secondaryHighlightColor
+        anchors.centerIn: parent
+        width: settings.nightmodeActive ? 84 : 300;   // !!! Update whenever you regenerate the images !!!
+        height: settings.nightmodeActive ? 496 : 354  // !!! Update whenever you regenerate the images !!!
+        rotation: __ringRotation
+        Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
     }
 
-
-    // The needle of the compass
+    // The needle of the compass.
+    // Consists of two overlaid images, first one with static colors and the
+    // other on the top showed in the current ambient highlight color.
     Image {
         source: "../images/compass_needle_day_S.png"
         anchors.centerIn: parent
-        visible: !settings.nightmodeActive // (currentNightmodeStr === "day")
+        visible: !settings.nightmodeActive
         rotation: - compassCapsule.azimuth
         Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
     }
-//    Image {
-//        source: "../images/compass_needle_day_N_red.png"
-//        anchors.centerIn: parent
-//        rotation: - compassCapsule.azimuth
-//        Behavior on rotation { RotationAnimation { duration: 200; direction: RotationAnimation.Shortest } }
-//    }
     RGBIcon {
-        //source: "../images/compass_needle_" + currentNightmodeStr +  "_N_?.png"
         source: "../images/compass_needle_" + settings.currentNightmodeStr +  "_N_?.png"
         color: Theme.highlightColor
         anchors.centerIn: parent
@@ -130,7 +121,7 @@ Item {
         }
         onPositionChanged: {
             if (compassCapsule.changingDirection) {
-                compassRing.rotation += xyToAngle(mouseX, mouseY) - compassCapsule.previousAngle
+                compassCapsule.__ringRotation += xyToAngle(mouseX, mouseY) - compassCapsule.previousAngle
                 compassCapsule.previousAngle = xyToAngle(mouseX, mouseY)
             }
         }
