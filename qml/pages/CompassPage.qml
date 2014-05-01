@@ -81,10 +81,6 @@ Page {
             azimuth: compass.azimuth
 
             settings: page.settings
-
-            // TODO: remove
-            compassScale: settings.compassScaleStr
-            currentNightmodeStr: settings.currentNightmodeStr
         }
 
         Label {

@@ -29,15 +29,11 @@ Item {
     // Normalizing the angle is a bit unnecessary here...
     property real direction: normalize360(- __ringRotation)  // In degrees, 0-359
     property real azimuth: 0.0     // In degrees, set (bind) from outside, the compass needle follows this
+    property bool changingDirection: false  // Is the direction (ring rotation) changing right now?
 
     property CompassSettings settings
 
-    // TODO: replace with direct use of settings
-    property string compassScale   // Current scale as a string, e.g. "360"
-    property string currentNightmodeStr  // Curretly active nightmode as string, "night" or "day"
-
-    property bool changingDirection: false
-    property real previousAngle: 0
+    property real __previousAngle: 0
     property real __ringRotation: 0
 
     function normalize360(angle) {
@@ -56,7 +52,7 @@ Item {
     // Consists of two overlaid images, first one with static colors and the
     // other on the top showed in the current ambient highlight color.
     Image {
-        source: "../images/compass_ring_" + compassScale + "_" + settings.currentNightmodeStr + ".png"
+        source: "../images/compass_ring_" + settings.compassScaleStr + "_" + settings.currentNightmodeStr + ".png"
         anchors.centerIn: parent
         rotation: __ringRotation
         Behavior on rotation { RotationAnimation { duration: 0; direction: RotationAnimation.Shortest } }
@@ -111,8 +107,8 @@ Item {
         onPressed: {
             if (isTouchOnRing(mouseX, mouseY)) {
                 compassCapsule.changingDirection = true
-                compassCapsule.previousAngle = xyToAngle(mouseX, mouseY)
-                //console.log("Starting direction change at:", mouseX, mouseY, " angle ", compassCapsule.previousAngle)
+                compassCapsule.__previousAngle = xyToAngle(mouseX, mouseY)
+                //console.log("Starting direction change at:", mouseX, mouseY, " angle ", compassCapsule.__previousAngle)
             }
         }
         onReleased: {
@@ -121,8 +117,8 @@ Item {
         }
         onPositionChanged: {
             if (compassCapsule.changingDirection) {
-                compassCapsule.__ringRotation += xyToAngle(mouseX, mouseY) - compassCapsule.previousAngle
-                compassCapsule.previousAngle = xyToAngle(mouseX, mouseY)
+                compassCapsule.__ringRotation += xyToAngle(mouseX, mouseY) - compassCapsule.__previousAngle
+                compassCapsule.__previousAngle = xyToAngle(mouseX, mouseY)
             }
         }
     }
