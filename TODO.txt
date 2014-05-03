@@ -1,11 +1,11 @@
 TODO / Orienteering Compass
 ===========================
 
-* Nightmode: color of the buttons white --> highlightColor
-
 * About dialog content
 
-* Buttons: takes selection even if released somewhere else (drag and release), bug?
+* Bug: buttons: release on compass ring --> highlight stays on
+
+* Bug: Buttons: takes selection even if released somewhere else (drag and release).
 
 * Vibra?
 
@@ -25,6 +25,9 @@ Publish
 ******************************
 Version 1.x
 ===========
+
+* Bug: sometimes (when?) the compass seems not to reach on ring rotation. After switching to background and back,
+  it has been rotated after all.
 
 * Calibration value, seems to be always 1.0?
 

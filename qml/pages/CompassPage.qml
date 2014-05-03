@@ -143,6 +143,7 @@ Page {
             highlightVAlign: "bottom"
             name: "scale"
             valueList: [ "360", "400", "6000" ]
+            nightmodeActive: settings.nightmodeActive
             // NOTE: currentIndex set by page.onStatusChanged below
             onCurrentValueChanged: {
                 // Change the setting only when the page is active i.e. the change is truly
@@ -164,6 +165,7 @@ Page {
             highlightVAlign: "bottom"
             name: "nightmode"
             valueList: [ "auto", "day", "night" ]
+            nightmodeActive: settings.nightmodeActive
             // NOTE: currentIndex set by page.onStatusChanged below
             onCurrentValueChanged: {
                 // Change the setting only when the page is active i.e. the change is truly

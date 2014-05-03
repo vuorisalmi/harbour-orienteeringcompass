@@ -32,6 +32,7 @@ Item {
     property int currentIndex: 0 // read-write externally
     property string highlightHAlign: "left"    // or "right"
     property string highlightVAlign: "bottom"  // or "top"
+    property bool nightmodeActive: false
 
 //    Image {
 //        id: highlightImage
@@ -64,10 +65,17 @@ Item {
 //        visible: false
 //    }
 
-    Image {
+//    Image {
+//        id: buttonImage
+//        source: "../images/icon_" + name + "_" + currentValue + "_white.png"
+//        anchors.centerIn: parent
+//    }
+    RGBIcon {
         id: buttonImage
-        source: "../images/icon_" + name + "_" + currentValue + "_white.png"
+        source: "../images/icon_" + name + "_" + currentValue + "_?.png"
         anchors.centerIn: parent
+        width: 56; height: 56
+        color: nightmodeActive ? Theme.highlightColor : "white"
     }
 
     MouseArea {
