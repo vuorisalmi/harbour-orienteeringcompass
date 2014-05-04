@@ -3,10 +3,6 @@ TODO / Orienteering Compass
 
 * About dialog content
 
-* Bug: buttons: release on compass ring --> highlight stays on
-
-* Bug: Buttons: takes selection even if released somewhere else (drag and release).
-
 * Vibra?
 
 * Cover.Active signal of the CoverBackground element (Cover is visible and screen is not locked)??

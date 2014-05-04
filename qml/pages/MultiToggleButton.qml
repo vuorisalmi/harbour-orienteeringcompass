@@ -34,13 +34,6 @@ Item {
     property string highlightVAlign: "bottom"  // or "top"
     property bool nightmodeActive: false
 
-//    Image {
-//        id: highlightImage
-//        source: "icon_highlight_64.png"
-//        anchors.centerIn: parent
-//        visible: false
-//    }
-
     // Highlight graphics for the buttom press.
     // Numbers are based on experimenting...
     GlassItem {
@@ -57,19 +50,6 @@ Item {
         visible: false
     }
 
-//    Rectangle {
-//        id: highlightImage
-//        width: 64; height: 64
-//        anchors.centerIn: parent
-//        color: Theme.highlightColor
-//        visible: false
-//    }
-
-//    Image {
-//        id: buttonImage
-//        source: "../images/icon_" + name + "_" + currentValue + "_white.png"
-//        anchors.centerIn: parent
-//    }
     RGBIcon {
         id: buttonImage
         source: "../images/icon_" + name + "_" + currentValue + "_?.png"
@@ -79,6 +59,7 @@ Item {
     }
 
     MouseArea {
+        id: mouseArea
         anchors.centerIn: parent
         width: 64
         height: 64
@@ -87,9 +68,19 @@ Item {
             highlightImage.visible = true
         }
         onReleased: {
-            currentIndex = currentIndex >= valueList.length - 1 ? 0 : currentIndex += 1
+            if (mouseX > 0 && mouseY > 0 && mouseX < mouseArea.width && mouseY < mouseArea.height) {
+                currentIndex = currentIndex >= valueList.length - 1 ? 0 : currentIndex += 1
+                //console.log("MultiToggleButton: onReleased: changing to value ", currentValue)
+            }
             highlightImage.visible = false
-            //console.log("MultiToggleButton: changing to value ", currentValue)
+        }
+        onExited: {
+            highlightImage.visible = false
+            //console.log("MultiToggleButton: onExited")
+        }
+        onCanceled: {
+            highlightImage.visible = false
+            //console.log("MultiToggleButton: onCanceled")
         }
     }
 }
