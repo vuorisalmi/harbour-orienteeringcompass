@@ -42,7 +42,7 @@ Page {
                 title: "Orienteering Compass"
             }
             Label {
-                text: "Version 0.9.0"
+                text: "Version 1.0.0"
                 color: Theme.primaryColor
                 wrapMode: TextEdit.WordWrap
                 width: parent.width

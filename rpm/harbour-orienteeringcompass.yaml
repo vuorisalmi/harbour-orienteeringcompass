@@ -1,14 +1,16 @@
 Name: harbour-orienteeringcompass
 Summary: Orienteering Compass
-Version: 0.9.0
+Version: 1.0.0
 Release: 1
 Group: Qt/Qt
 URL: https://github.com/vuorisalmi/harbour-orienteeringcompass
 License: GPLv3
 Sources:
 - '%{name}-%{version}.tar.bz2'
-Description: |
-  Orienteering compass for SailfishOS.
+Description: "Traditional compass for walking, hiking, orienteering etc. It is like
+  a regular hand-held compass and also allows you to change the compass scale (360
+  degrees, 400 gradians or 6000 mils) and provides an automatic or locked night mode
+  (lights off when you are in the dark).\n"
 Configure: none
 Builder: qtc5
 PkgConfigBR:

@@ -6,12 +6,6 @@ TODO / Orienteering Compass
 ---
 Publish
 
-* rpm package stuff
-
-* Rpm: description, check the old version
-
-* v1.0.0: rpm + about dialog
-
 * Take screenshots
 
 * Make banner picture

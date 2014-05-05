@@ -3,6 +3,11 @@ All rights reserved.
 
 Orienteering compass application for the SailfishOS (Jolla).
 
+Traditional compass for walking, hiking, orienteering etc. It is
+like a regular hand-held compass and also allows you to change the
+compass scale (360 degrees, 400 gradians or 6000 mils) and provides
+an automatic or locked night mode (lights off when you are in the dark).
+
 Orienteering compass was originally written for MeeGo/Nokia N9,
 now re-written for SailfishOS.
 

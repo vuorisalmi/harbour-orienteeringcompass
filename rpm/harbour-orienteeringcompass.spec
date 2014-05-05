@@ -13,7 +13,7 @@ Name:       harbour-orienteeringcompass
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Orienteering Compass
-Version:    0.9.0
+Version:    1.0.0
 Release:    1
 Group:      Qt/Qt
 License:    GPLv3
@@ -28,7 +28,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Orienteering compass for SailfishOS.
+Traditional compass for walking, hiking, orienteering etc. It is like a regular hand-held compass and also allows you to change the compass scale (360 degrees, 400 gradians or 6000 mils) and provides an automatic or locked night mode (lights off when you are in the dark).
 
 
 %prep
