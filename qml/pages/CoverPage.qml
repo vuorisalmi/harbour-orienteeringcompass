@@ -24,7 +24,17 @@ import Sailfish.Silica 1.0
 CoverBackground {
 
     property OrientCompassSensor compass
+    property CompassSettings settings
     property bool coverCompassActive: true // Compass active based on the manual play/pause action?
+
+    // Almost black background for the nightmode.
+    // Needs to be here before and below all the other items.
+    Rectangle {
+        anchors.fill: parent
+        color: "black"
+        opacity: 0.7
+        visible: settings.nightmodeActive
+    }
 
     Item {
         id: coverNeedle
@@ -43,7 +53,7 @@ CoverBackground {
             anchors.top: parent.top
             anchors.horizontalCenter: parent.horizontalCenter
             color: Theme.highlightColor
-            opacity: 0.3
+            opacity: settings.nightmodeActive ? 0.2 : 0.3
         }
         Rectangle {
             id: needleS
@@ -51,8 +61,8 @@ CoverBackground {
             width: needleN.width
             anchors.top: needleN.bottom
             anchors.horizontalCenter: parent.horizontalCenter
-            color: "white"
-            opacity: 0.3
+            color: settings.nightmodeActive ? "black" : "white"
+            opacity: settings.nightmodeActive ? 0.5 : 0.3
         }
     }
 
@@ -66,7 +76,8 @@ CoverBackground {
         horizontalAlignment: Text.AlignHCenter
         wrapMode: TextEdit.WordWrap
         font.pixelSize: compass.active ? Theme.fontSizeExtraLarge : Theme.fontSizeMedium
-        color: compass.active ? Theme.highlightColor : Theme.primaryColor
+        color: compass.active ? (settings.nightmodeActive ? Theme.secondaryHighlightColor : Theme.highlightColor)
+                              : (settings.nightmodeActive ? Theme.secondaryColor : Theme.primaryColor)
     }
 
     CoverActionList {

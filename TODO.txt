@@ -1,8 +1,6 @@
 TODO / Orienteering Compass
 ===========================
 
-* Night mode for the cover page
-
 * About dialog content -- add icon?
 
 ---

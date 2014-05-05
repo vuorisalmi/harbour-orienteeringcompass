@@ -37,6 +37,7 @@ ApplicationWindow
     CoverPage {
         id: coverPage
         compass: sharedCompass
+        settings: sharedSettings
 
         // Currently, this function is only used for debugging purposes.
         onStatusChanged: {
@@ -65,8 +66,8 @@ ApplicationWindow
     LightSensor {
         id: lightSensor
 
-        // Currently, light sensor is not needed by cover page when app is in the background
-        active: appWindow.screenOn && appWindow.applicationActive && sharedSettings.nightmodeSetting === "auto"
+        active: appWindow.screenOn && sharedSettings.nightmodeSetting === "auto" &&
+                (appWindow.applicationActive || coverPage.status === Cover.Active)
 
         // Jolla light sensor gives quite easily a zero level in low light...
         property real _nightThreshold: 0
