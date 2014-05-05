@@ -30,7 +30,7 @@
 
 int main(int argc, char *argv[])
 {
-    qmlRegisterType<QSettingsItemQmlProxy>("CompassExtras", 1, 0, "QSettingsItem");
+    qmlRegisterType<QSettingsItemQmlProxy>("harbour.orienteeringcompass", 1, 0, "QSettingsItem");
 
     return SailfishApp::main(argc, argv);
 }

@@ -19,7 +19,7 @@
 */
 
 import QtQuick 2.0
-import CompassExtras 1.0
+import harbour.orienteeringcompass 1.0
 
 // Non-viaual item
 Item {
