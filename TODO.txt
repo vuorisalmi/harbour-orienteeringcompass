@@ -1,8 +1,6 @@
 TODO / Orienteering Compass
 ===========================
 
-* Cover.Active signal of the CoverBackground element (Cover is visible and screen is not locked)??
-
 * Night mode for the cover page
 
 * About dialog content -- add icon?

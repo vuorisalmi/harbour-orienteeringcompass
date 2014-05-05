@@ -29,7 +29,9 @@ ApplicationWindow
 {
     id: appWindow
 
-    // Updated by the context property below (using contextkit)
+    // Updated by the context property below (using contextkit).
+    // We need this because the applicationActive status does not seem to
+    // change when the screen is blancked by an inactivity timer.
     property bool screenOn: true
 
     CoverPage {
@@ -93,11 +95,7 @@ ApplicationWindow
 
         onValueChanged: {
             console.log("*Screen: " + ((value) ? "Off (" : "On (") + value + ")");
-            if (value > 0) {
-                appWindow.screenOn = false;
-            } else {
-                appWindow.screenOn = true;
-            }
+            appWindow.screenOn = (value === 0);
         }
     }
 }
