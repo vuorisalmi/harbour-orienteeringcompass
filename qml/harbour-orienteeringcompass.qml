@@ -32,12 +32,28 @@ ApplicationWindow
     // Updated by the context property below (using contextkit)
     property bool screenOn: true
 
+    CoverPage {
+        id: coverPage
+        compass: sharedCompass
+
+        // Currently, this function is only used for debugging purposes.
+        onStatusChanged: {
+            var statusText = "";
+            if (status === Cover.Inactive) { statusText = "Inactive"; }
+            else if (status === Cover.Activating) { statusText = "Activating"; }
+            else if (status === Cover.Active) { statusText = "Active"; }
+            else if (status === Cover.Deactivating) { statusText = "Deactivating"; }
+            console.log("Cover status: " + statusText + "(" + status + ")");
+        }
+    }
+
     initialPage: Component { CompassPage { compass: sharedCompass; settings: sharedSettings } }
-    cover: Component { CoverPage { compass: sharedCompass } }
+    cover: coverPage
 
     OrientCompassSensor {
         id: sharedCompass
-        active: true
+        active: appWindow.screenOn &&
+                (appWindow.applicationActive || (coverPage.status === Cover.Active && coverPage.coverCompassActive))
     }
 
     CompassSettings {
@@ -65,15 +81,9 @@ ApplicationWindow
         }
     }
 
-    // Main logic for the compass sensor on/off "state machine" is here:
-    // decided by application being active (=foreground, full-screen) and
-    // display being on/off.
-    // In addition, the cover provides means to manually switch compass on/off.
+    // Currently, this function is only used for debugging purposes.
     onApplicationActiveChanged: {
         console.log("*Application: " + (applicationActive ? "ACTIVE" : "Inactive"));
-        if (applicationActive) {
-            sharedCompass.active = true;
-        }
     }
 
     ContextProperty {
@@ -84,14 +94,8 @@ ApplicationWindow
         onValueChanged: {
             console.log("*Screen: " + ((value) ? "Off (" : "On (") + value + ")");
             if (value > 0) {
-                // Screen is OFF --> compass always off
-                sharedCompass.active = false;
                 appWindow.screenOn = false;
             } else {
-                if (applicationActive) {
-                    // Screen is ON --> turn compass on if app is active, otherwise just leave it to the Cover to decide
-                    sharedCompass.active = true;
-                }
                 appWindow.screenOn = true;
             }
         }

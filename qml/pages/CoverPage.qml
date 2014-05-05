@@ -24,6 +24,7 @@ import Sailfish.Silica 1.0
 CoverBackground {
 
     property OrientCompassSensor compass
+    property bool coverCompassActive: true // Compass active based on the manual play/pause action?
 
     Item {
         id: coverNeedle
@@ -73,7 +74,7 @@ CoverBackground {
 
         CoverAction {
             iconSource: (compass.active) ? "image://theme/icon-cover-pause" : "image://theme/icon-cover-play"
-            onTriggered: { compass.active = !compass.active; }
+            onTriggered: { coverCompassActive = !compass.active; }
         }
     }
 }

@@ -1,16 +1,18 @@
 TODO / Orienteering Compass
 ===========================
 
-* About dialog content
-
-* Vibra?
-
 * Cover.Active signal of the CoverBackground element (Cover is visible and screen is not locked)??
+
+* Night mode for the cover page
+
+* About dialog content -- add icon?
 
 ---
 Publish
 
 * rpm package stuff
+
+* Rpm: description, check the old version
 
 * v1.0.0: rpm + about dialog
 
@@ -27,7 +29,7 @@ Version 1.x
 
 * Calibration value, seems to be always 1.0?
 
-* Night mode for the cover page
+* Vibra? Haptics feedback?
 
 * Compass needle graphics: ambient highlight or always red?
 
