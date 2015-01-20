@@ -67,6 +67,14 @@ Page {
                 label: "Calibration level " + (value * 100).toFixed(0) + "%"
             }
 
+            Label {
+                text: qsTr('(Note: The reading will probably get stuck at max 33%. In that case, the calibration should be already ok.)')
+                color: Theme.primaryColor
+                wrapMode: TextEdit.WordWrap
+                width: parent.width
+
+            }
+
         } // Column
     }
 }

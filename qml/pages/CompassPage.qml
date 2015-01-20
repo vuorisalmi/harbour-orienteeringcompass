@@ -186,7 +186,12 @@ Page {
             anchors.horizontalCenter: compassCapsule.horizontalCenter
             anchors.bottom: compassCapsule.bottom
             anchors.bottomMargin: 150
-            visible: !settings.nightmodeActive && __calibrationValue < 0.98
+            // NOTE: the threshold for showing the indicator is intentionally low (0.01),
+            // it used to be 0.98 before. Starting SailfishOS 1.1.1.27, the calibration
+            // reading seems to reach max 0.33 and we do not want show the indicator
+            // unnecessarily often.
+            // (See https://together.jolla.com/question/73137/compass-calibration-stuck-at-33/)
+            visible: !settings.nightmodeActive && __calibrationValue < 0.01
 
             onClicked: {
                 pageStack.push(calibrationPage);
