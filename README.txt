@@ -1,4 +1,4 @@
-Copyright (C) 2014, Jussi Vuorisalmi <jussi.vuorisalmi@iki.fi>
+Copyright (C) 2014-2015, Jussi Vuorisalmi <jussi.vuorisalmi@iki.fi>
 All rights reserved.
 
 Orienteering compass application for the SailfishOS (Jolla).
