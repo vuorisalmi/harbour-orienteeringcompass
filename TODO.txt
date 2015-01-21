@@ -13,6 +13,8 @@ Publish
 Version 1.x
 ===========
 
+* 6400 mils
+
 * Bug: sometimes (when?) the compass seems not to react on ring rotation. After switching to background and back,
   it has been rotated after all.
 
