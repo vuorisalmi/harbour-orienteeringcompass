@@ -1,7 +1,15 @@
 TODO / Orienteering Compass
 ===========================
 
-* About dialog content -- add icon?
+Calibration fix release 1.0.1
+=============================
+
+* version to 1.0.1 (about, rpm)
+
+* Update copyright years
+
+* App grid name "Compass"
+
 
 ---
 Publish
@@ -14,10 +22,10 @@ Publish
 Version 1.x
 ===========
 
-* Bug: sometimes (when?) the compass seems not to reach on ring rotation. After switching to background and back,
+* Bug: sometimes (when?) the compass seems not to react on ring rotation. After switching to background and back,
   it has been rotated after all.
 
-* Calibration value, seems to be always 1.0?
+* Calibration value, now only between 0...33%, any change or better ideas to work around?
 
 * Vibra? Haptics feedback?
 
